@@ -39,12 +39,14 @@
         <MultiLinkVue name='e-Sports' :sublinks="sublinksToESports" />
         <ItemLinkHover link='/' name="Ingressos" />
         <ItemLinkHover link='/' name="Loja" />
-        <a href="https://www.instagram.com/botaagua_e_sport/" target="_blank" rel="noopener noreferrer">
-          <v-icon icon="mdi-instagram" color="white" />
-        </a>
-        <a href="https://www.youtube.com/channel/UCQrKvSleGDchZ0pWxFuPhxw" target="_blank" rel="noopener noreferrer">
-          <v-icon icon="mdi-youtube" color="white" />
-        </a>
+        <IconLinkHover
+          link="https://www.instagram.com/botaagua_e_sport/"
+          icon="mdi-instagram"
+        />
+        <IconLinkHover
+          link="https://www.youtube.com/channel/UCQrKvSleGDchZ0pWxFuPhxw"
+          icon="mdi-youtube"
+        />
       </div>
 
       <v-expand-transition>
@@ -74,6 +76,7 @@
 
   import ItemLinkHover from './ItemLinkHover.vue'
   import MultiLinkVue from './MultiLink.vue';
+  import IconLinkHover from '../LinkHover/IconLinkHover.vue'
 
   const sublinksToClub = [
     { name: "História", link: '/'},

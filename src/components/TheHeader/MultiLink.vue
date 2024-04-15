@@ -12,7 +12,6 @@
           class="d-flex flex-column ga-2 px-4 py-2"
           :class="isMenuMobile ? 'position-relative ml-4 bg-transparent' : 'position-absolute bg-indigo-darken-4'"
         >
-          
           <ItemLinkHover
             v-for="sublink in sublinks"
             :key="sublink.name"
