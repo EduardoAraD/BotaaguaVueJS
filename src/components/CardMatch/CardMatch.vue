@@ -18,11 +18,11 @@
           <span class="text-body-2 text-white d-none d-md-flex">{{ match.home.name }}</span>
         </div>
         <h2 class="text-h4 font-weight-medium">
-          {{ state.isFinishedMatch ? match.score.goalsHome.length : '' }}
+          {{ state.status === 'finished' ? match.score.goalsHome.length : '' }}
         </h2>
         <span class="text-body-2 text-white">X</span>
         <h2 class="text-h4 font-weight-medium">
-          {{ state.isFinishedMatch ? match.score.goalsAway.length : '' }}
+          {{ state.status === 'finished' ? match.score.goalsAway.length : '' }}
         </h2>
         <div class="d-flex flex-column align-center ga-1" style="flex: 1;">
           <v-img height="64" width="64" contain
@@ -49,6 +49,7 @@
   import { onMounted, reactive } from 'vue';
   import { Match } from '../model/Match'
   import { formatDate } from '../../utils/formatedDate';
+  import { getStatusMatchByDateHour } from '../../utils/getStatusMatch';
 
   const props = defineProps<{
     match: { type: Match },
@@ -56,16 +57,13 @@
 
   const state = reactive({
     formatDate: '',
-    isFinishedMatch: false,
+    status: 'started',
   })
 
   onMounted(() => {
-    const date = new Date(props.match.date).getTime()
-    const now = Date.now();
-    state.isFinishedMatch = date < now;
+    state.status = getStatusMatchByDateHour(props.match.date);
 
     state.formatDate = formatDate(props.match.date);
   })
 
 </script>
-
