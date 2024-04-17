@@ -1,5 +1,5 @@
 <template>
-  <header class="position-fixed w-100"  style="max-width: 100vw; z-index: 9999;">
+  <header class="position-fixed w-100" style="max-width: 100vw; z-index: 9999;">
     <div class="d-flex flex-md-row flex-column align-center justify-space-around" style="background-color: #1A237EEE;">
       <div class="d-flex align-center justify-space-around w-100">
         <div class="d-flex align-center ga-2">
@@ -69,6 +69,7 @@
     </div>
 
   </header>
+  <div style="height: 70px;" />
 </template>
 
 <script setup lang="ts">
@@ -85,7 +86,7 @@
     { name: "Títulos", link: '/'},
   ]
   const sublinksToSoccer = [
-    { name: "Calendário", link: '/'},
+    { name: "Calendário", link: '/calendario'},
     { name: "Competição", link: '/'},
   ]
   const sublinksToESports = [
