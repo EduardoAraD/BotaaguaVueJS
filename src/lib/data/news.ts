@@ -50,4 +50,52 @@ export const news: News[] = [
       }
     ],
   },
+  {
+    id: '2',
+    publicationDate: '2024-04-18 19:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/2.png?raw=true',
+    title: 'Botaagua vence e larga na frente nas semi-finais.',
+    titlePageLink: 'Botaagua vs Olympique de Marseille',
+    subtitle: 'Mesmo começando atrás no placar, o Botaagua vira para 3 a 1 e tem dois gols de vantagem para a volta.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: 'Tudo igual no primeiro tempo.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Jogando em casa, o Botaagua partiu com tudo, aos 4 minutos o goleiro do Olympique de Marselha ja estava fazendo milagres.
+          A primeira chegada dos visitantes foi aos 13 minutos com UNDER, mas a bola subiu demais. Mesmo tendo varias chances, o Botaagua
+          não abria o placar, aos 30 minutos VEGA chutou no canto e quase marcou, o zagueiro tirou em cima da linha. E no contra-ataque o
+          Olympique abre o placar com BOADU. Mas o Botaagua no desaminou e empatou no lance seguinte, ANDRADE aproveita o passe de PERALTA
+          e marca aos 40 minutos. Tudo igual até o fim do primeiro tempo.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Segundo tempo brilhante.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          No início do segundo tempo o Olympique de Marseille teve a primeira chance, mas o Botaagua respondeu com uma chance clara de gol e
+          uma defesa maravilhosa do goleiro do Olympique. Porém, aos 63 minutos, um lançamento de ANDRADE, VEGA partiu sozinho para virar o jogo,
+          2 a 1 Botaagua. Com o gol o Botaagua assumiu o controle da partida e perto no fim ampliou sua vantagem com PERALTA aos 85 minutos e dando
+          números finais a partida. Vitória do Botaagua por 3 a 1 sobre o Olympique de Marseille.
+        `,
+      },
+      {
+        type: 'heading',
+        value: 'Agora é em Marselha',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Com a vitória, o Botaagua vai para Marselha com dois gols de vantagem para se classificar para a final.
+        O jogo vai ser amanhã (19/04) as 19h, e você pode acompanhar aqui mesmo no site.
+        `
+      }
+    ],
+  },
 ];

@@ -82,7 +82,7 @@
   const sublinksToClub = [
     { name: "História", link: '/'},
     { name: "Elenco", link: '/'},
-    { name: "Estádio", link: '/'},
+    { name: "Estádio", link: '/clube/estadio'},
     { name: "Títulos", link: '/'},
   ]
   const sublinksToSoccer = [

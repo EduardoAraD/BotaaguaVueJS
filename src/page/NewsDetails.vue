@@ -1,5 +1,5 @@
 <template>
-  <LayoutPage>
+  <v-container>
     <TitlePage
       :paths="path"
       :title="state.news.titlePageLink"
@@ -40,8 +40,7 @@
         />
       </div>
     </div>
-
-  </LayoutPage>
+  </v-container>
 </template>
 
 <script setup lang="ts">
