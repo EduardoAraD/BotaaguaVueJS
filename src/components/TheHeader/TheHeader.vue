@@ -34,7 +34,7 @@
           name="Clubes"
           :sublinks="sublinksToClub"
         />
-        <ItemLinkHover link='/' name="Notícias" />
+        <ItemLinkHover link='/noticias' name="Notícias" />
         <MultiLinkVue name="Futebol" :sublinks="sublinksToSoccer" />
         <MultiLinkVue name='e-Sports' :sublinks="sublinksToESports" />
         <ItemLinkHover link='/' name="Ingressos" />
@@ -59,7 +59,7 @@
             :sublinks="sublinksToClub"
             isMenuMobile
           />
-          <ItemLinkHover link='/' name="Notícias" />
+          <ItemLinkHover link='/noticias' name="Notícias" />
           <MultiLinkVue name="Futebol" :sublinks="sublinksToSoccer" isMenuMobile />
           <MultiLinkVue name='e-Sports' :sublinks="sublinksToESports" isMenuMobile />
           <ItemLinkHover link='/' name="Ingressos" />
@@ -86,7 +86,7 @@
     { name: "Títulos", link: '/'},
   ]
   const sublinksToSoccer = [
-    { name: "Calendário", link: '/calendario'},
+    { name: "Calendário", link: '/calendario' },
     { name: "Competição", link: '/'},
   ]
   const sublinksToESports = [

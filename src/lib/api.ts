@@ -38,3 +38,11 @@ export function getListNewsPublishes(): News[] {
     return dateNow > publicationDate;
   });
 }
+
+export function getNewsById(idMatch: string): News | undefined {
+  return news.find(item => item.id === idMatch)
+}
+
+export function getNewsToCarrousel() {
+  return news;
+}
