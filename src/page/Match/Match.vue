@@ -20,6 +20,7 @@
 
     <section v-if="!state.isMatchLoading" class="d-flex justify-center">
       <iframe
+        v-if="state.match.video !== ''"
         :src="state.match.video"
         title="YouTube video player"
         frameborder="0"
@@ -28,6 +29,7 @@
         allowfullscreen
         class="rounded-lg"
       />
+      <span v-else class="text-overline">Vídeo em breve</span>
     </section>
 
     <StatsMatch

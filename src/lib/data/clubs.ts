@@ -27,3 +27,24 @@ export const Atalanta: Club = {
   shortName: 'ATA',
   stadium: 'Stadio Classico'
 }
+
+export const OlympiqueMarseille: Club = {
+  name: 'Olympique de Marseille',
+  logo: 'https://www.om.fr/sites/default/files/2019-06/Logo%20Marseille.png',
+  shortName: 'OM',
+  stadium: 'Stade Vélodrome - Marselha',
+}
+
+export const Sevilla: Club = {
+  name: 'Sevilla FC',
+  logo: 'http://sevillafc.es/sites/default/files/styles/team_shield/public/escudos/t179%402x_0.png?itok=egAcQgb1',
+  shortName: 'SEV',
+  stadium: 'Stadium Ramón Sánchez Pizjuán',
+}
+
+export const ManchesterCity: Club = {
+  name: 'Manchester City',
+  logo: 'https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=64&height=64',
+  shortName: 'MCI',
+  stadium: '',
+}

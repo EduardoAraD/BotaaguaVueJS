@@ -9,8 +9,9 @@ export interface Match {
   home: Club;
   away: Club;
   date: string;
+  publicationDate: string;
   stadium: string;
-  championship: 'UEFA Champions League' | 'UEFA Europa League';
+  championship: 'UEFA Champions League' | 'UEFA Europa League' | 'UEFA Super Cup';
   stage: FaseMatch;
   season: number;
   score: ScoreMatch
@@ -25,9 +26,10 @@ export const emptyMatchComplete: MatchCompleted = {
   id: '-',
   home: emptyClub,
   away: emptyClub,
-  date: '01/01/2024',
+  date: '2024-01-01',
+  publicationDate: '2024-01-01',
   stadium: emptyClub.stadium,
-  championship: 'UEFA Champions League',
+  championship: 'UEFA Europa League',
   stage: 'Fase de Grupos',
   season: 1,
   score: {

@@ -8,4 +8,8 @@ export interface Score {
 export interface ScoreMatch {
   goalsHome: Score[];
   goalsAway: Score[];
+  scorePenalts?: {
+    home: number;
+    away: number;
+  }
 }

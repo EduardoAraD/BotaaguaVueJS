@@ -19,14 +19,19 @@
             {{ clubHome.name }}
           </h3>
         </div>
-        <img height="64" width="64" contain
+        <div
+          class="d-flex align-center justify-center"
+          :class="state.status === 'finished' ? 'ga-4' : 'ga-10'"
+        >
+        <v-img height="64" width="64" contain
           :src="clubHome.logo" :alt="clubHome.shortName" />
         <h2 class="text-h4 font-weight-bold">
           {{ state.status === 'finished' ? score.goalsHome.length : '' }} - 
           {{ state.status === 'finished' ? score.goalsAway.length : '' }}
         </h2>
-        <img height="64" width="64" contain
+        <v-img height="64" width="64" contain
           :src="clubAway.logo" :alt="clubAway.shortName" />
+        </div>
         <div class="d-none d-sm-flex justify-center" style="flex: 1">
           <h3 class="font-weight-bold text-center text-body-1">
             {{ clubAway.name }}

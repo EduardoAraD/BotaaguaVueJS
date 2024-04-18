@@ -11,7 +11,7 @@
       alt="foto da noticia"
     />
     
-    <div  style="bottom: 0px; background-color: #00000077;"
+    <div style="bottom: 0px; background-color: #00000077;"
       class="position-absolute pa-4 w-100 d-flex ga-2 flex-column justify-space-around">
       <h2 class="text-h6 font-weight-bold text-white">{{ title }}</h2>
       <p class="text-body-2 text-white">{{ subtitle }}</p>
