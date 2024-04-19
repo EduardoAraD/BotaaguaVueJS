@@ -30,7 +30,7 @@ export function getNextMatch() {
   return findMatch;
 }
 
-export function getListNewsPublishes(): News[] {
+function getNewsPublishes() {
   const dateNow = Date.now();
   return news.filter(item => {
     const publicationDate = new Date(item.publicationDate).getTime();
@@ -39,10 +39,20 @@ export function getListNewsPublishes(): News[] {
   });
 }
 
+export function getListNewsPublishes(): News[] {
+  return getNewsPublishes();
+}
+
 export function getNewsById(idMatch: string): News | undefined {
   return news.find(item => item.id === idMatch)
 }
 
 export function getNewsToCarrousel() {
-  return news;
+  const numberNewsToCarrousel = 4;
+  const listNews = getNewsPublishes().sort((newsA, newsB) => {
+    const timeA = new Date(newsA.publicationDate).getTime()
+    const timeB = new Date(newsB.publicationDate).getTime()
+    return timeA < timeB ? 1 : -1
+  })
+  return listNews.filter((_, index) => index < numberNewsToCarrousel);
 }

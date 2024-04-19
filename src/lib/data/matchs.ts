@@ -1,5 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { Atalanta, Botaagua, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
+import { ASMonaco, Atalanta, Botaagua, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
 
 // export const matchs: MatchCompleted[] = [
 //   {
@@ -424,10 +424,10 @@ export const matchsEuropa: MatchCompleted[] = [
     home: ManchesterCity,
     away: Botaagua,
     date: '2024-04-22 19:00:00',
-    publicationDate: '2024-04-20 20:00:00',
+    publicationDate: '2024-04-21 10:00:00',
     stadium: "Stadium Olympik",
     championship: 'UEFA Super Cup',
-    season: 1,
+    season: 2,
     stage: 'Final',
     score: {
       goalsHome: [
@@ -465,6 +465,101 @@ export const matchsEuropa: MatchCompleted[] = [
         cornerKick: 1,
         offSide: 3,
         free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '9',
+    home: ManchesterCity,
+    away: Botaagua,
+    date: '2024-04-23 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: ManchesterCity.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'RODRYGO', minute: 26, assistence: 'HAALAND' },
+        { player: 'HAALAND', minute: 59, assistence: 'DE JONG' },
+      ],
+      goalsAway: [
+        { player: 'HERNÁNDEZ (C)', minute: 67 },
+        { player: 'PERALTA', minute: 85, assistence: 'LOIC' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 2,
+        possession: 49,
+        kicks: 8,
+        expectedGoals: 3.5,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 2,
+        possession: 51,
+        kicks: 3,
+        expectedGoals: 1.4,
+        cornerKick: 0,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '10',
+    home: Botaagua,
+    away: ASMonaco,
+    date: '2024-04-24 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'ALONSO', minute: 59, assistence: 'INÁLCIO' },
+        { player: 'SCHRODER', minute: 76, assistence: 'PERALTA' },
+        { player: 'ALONSO', minute: 76, assistence: 'SCHRODER' },
+        { player: 'ALONSO', minute: 90, assistence: 'DICKINSON' },
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 4,
+        possession: 52,
+        kicks: 9,
+        expectedGoals: 2.2,
+        cornerKick: 1,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 48,
+        kicks: 6,
+        expectedGoals: 1.2,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
         penalty: 0,
         yellowCard: 0,
         redCard: 0,
