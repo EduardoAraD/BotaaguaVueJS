@@ -4,7 +4,7 @@
     <Loading v-if="isLoading" />
     
     <div v-else class="d-flex flex-column align-center">
-      <span class="text-body-2">
+      <span class="text-body-2 text-center">
         {{ stadium }} | {{ formatDate(dateMatch) }}
       </span>
       <p class="text-body-1 font-weight-bold text-center">

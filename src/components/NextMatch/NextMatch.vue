@@ -12,7 +12,7 @@
           <v-img height="80" width="80" contain
             :src="match.home.logo" :alt="match.home.shortName"
           />
-          <p class="text-white font-weight-bold text-body-1">{{ match.home.name }}</p>
+          <p class="text-white font-weight-bold text-body-1 text-center">{{ match.home.name }}</p>
         </div>
         <p class="text-h3 font-weight-bold">
           {{ state.status === 'finished' ? match.score.goalsHome.length : '' }}
@@ -25,7 +25,7 @@
           <v-img height="80" width="80" contain
             :src="match.away.logo" :alt="match.away.shortName"
           />
-          <p class="text-white font-weight-bold text-body-1">{{ match.away.name }}</p>
+          <p class="text-white font-weight-bold text-body-1 text-center">{{ match.away.name }}</p>
         </div>
       </div>
       <div class="d-flex flex-column ga-1 align-center">

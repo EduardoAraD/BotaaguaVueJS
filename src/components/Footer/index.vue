@@ -7,7 +7,7 @@
         <IconLinkHover icon='mdi-youtube' link="https://www.youtube.com/channel/UCQrKvSleGDchZ0pWxFuPhxw" />
       </div>
     </v-footer>
-    <v-footer class="text-caption d-flex justify-center bg-indigo-darken-3">
+    <v-footer class="text-caption d-flex justify-center bg-indigo-darken-3 text-center">
       @2024 TODOS OS DIREITOS RESERVADOS A EDUARDO ARAÚJO
     </v-footer>
   </footer>

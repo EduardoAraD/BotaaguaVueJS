@@ -77,7 +77,6 @@
 
 <script setup lang="ts">
   import TitlePage from '../components/TitlePage/TitlePage.vue'
-  import LayoutPage from '../components/LayoutPage.vue';
   import stadium1 from '../assets/stadium/stadium1.png'
   import stadium2 from '../assets/stadium/stadium2.png'
 

@@ -391,7 +391,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/AA4b8lIp9zc?si=1oRrHH-TmuURVIHX',
     stats: {
       home: {
         goals: 2,
