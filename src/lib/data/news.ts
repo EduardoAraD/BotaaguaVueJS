@@ -74,7 +74,7 @@ export const news: News[] = [
       },
       {
         type: 'heading',
-        value: 'Segundo tempo brilhante.'
+        value: 'Botaagua toma no fim, mas garante a final.'
       },
       {
         type: 'paragraph',
@@ -255,13 +255,25 @@ export const news: News[] = [
     id: '6',
     publicationDate: '2024-04-22 10:00:00',
     image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/6.jpeg?raw=true',
-    title: 'Botaagua x Mancherter City na final da UEFA Super Cup',
+    title: 'Nova temporada vai começar com a Final da Super Cup',
     titlePageLink: 'Final da Super Cup',
-    subtitle: 'Jogo único para Botaagua e Mancherter City na final da UEFA Super Cup.',
+    subtitle: 'No primeiro jogo da temporada, Botaagua e Mancherter City fazem a final da UEFA Super Cup em jogo único valendo o melhor da Europa.',
     descriptions: [
       {
         type: 'heading',
-        value: 'Tudo que você precisa saber.'
+        value: 'Início de temporada',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          A temporada vai começar com a Final da UEFA Super Cup entre Manchester City e Botaagua. Além disso, ainda vamos
+          ter a UEFA Champions League com o Botaagua vindo como campeão da UEFA Europa League. Os jogos vão começar a partir
+          do dia 23 de abril.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Tudo que você precisa saber sobre a final.'
       },
       {
         type: 'paragraph',
@@ -502,6 +514,230 @@ export const news: News[] = [
           City, que apenas ficou no empate em 1 a 1, e LASK com 2 e 1 pontos respectivamente. Na próxima rodada, o Botaagua
           vai visitar a Áustia para enfrentar o LASK que ainda não venceu e o Monaco joga em casa contra o City valendo a
           segunda colocação do grupo D.
+        `
+      },
+    ],
+  },
+  {
+    id: '11',
+    publicationDate: '2024-04-25 20:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/10.png?raw=true',
+    title: 'Botaagua joga mal e empata com o LASK.',
+    titlePageLink: 'LASK x Botaagua',
+    subtitle: 'Botaagua começa bem, mas cede o empate e sai apenas com um ponto da Aústria.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: 'Um bom primeiro tempo.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Jogando fora de casa, o Botaagua começou bem o jogo, teve as primeiras ações com 5 minutos de jogo com ALONSO e
+          logo em seguida com VEGA. Aos 11 minutos, FIGUEROA acerta a trave esquerdae o gol parecia questão de tempo. Até
+          que aos 18 minutos, SCHRODER faz um passe em profundidade para ALONSO fazer na saída do goleiro, 1 a 0 Botaagua.
+          Botaagua tinha o controle do jogo, mas o LASK começou a gostar da partida até que aos 29 minutos achou um gol para
+          empatar com o belo voleio de SIMMS, 1 a 1. O Botaagua sentiu o gol e o LASK dominou o restante do primeiro tempo.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'LASK domina a segunda etapa'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          O segundo tempo começou com o LASK indo pra cima. O Botaagua errava muitos passes o LASK aproveitou para pressionar
+          o lider do grupo. O LASK buscava o ataque, mas sem sucesso, até que aos 69 minutos HORVATH faz lindo chute e BERTRAND
+          faz bela defesa. A defesa do Botaagua atuava bem, mas faltava o ultimo passe para encaixar uma chance de gol, até que
+          aos 82 minutos, PERALTA invade a area e toca para trás para INÁLCIO encher o pé o o goleiro do LASK fazer um milagre.
+          Pouco mudou depois disso e a partida terminou assim. LASK 1x1 Botaagua.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Botaagua ainda na liderança.'
+      },
+      {
+        type: 'img',
+        value: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/10_1.jpeg?raw=true',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Na outra partida do grupo, o Mancherter City venceu por 4 a 1 o Monaco na França e encostou na liderança.
+          Mesmo com o empate, o Botaagua se manteve na liderança do grupo D com 5 pontos. O Mancherter City vem em segundo
+          com os mesmos 5 pontos, mas perdendo no saldo de gols com 1 a menos que o líder. O Monaco vem logo atras com 3 e
+          o lanterna é o LASK com 2 pontos ganhos. Na próxima rodada, o Botaagua joga em casa contra o LASK e o Mancherter City
+          volta para Inglaterra para jogar contra o Monaco.
+        `
+      },
+    ],
+  },
+  {
+    id: '12',
+    publicationDate: '2024-04-26 20:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/11.png?raw=true',
+    title: 'Botaagua vence e dispara na liderança do grupo D.',
+    titlePageLink: 'Botaagua x LASK',
+    subtitle: 'Botaagua joga bem e derrota o LASK por 3 a 1 com gols de VEGA, PERALTA e INÁLCIO e dispara na liderança do grupo D.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: 'Contra ataques fatais.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          O jogo começou com o LASK criando uma chance aos 4 minutos, o Botaagua tentou o contra-ataque com VEGA aos 8, mas
+          sem sucesso. LASK responde com um chute na cara do gol aos 14 minutos, mas foi para fora. O Botaagua tentava mas
+          não conseguia passar pela defesa, enquanto que BERTRAND segurava atrás. Até que aos 31 minutos ADAM disputa de cabeça
+          a bola sobra para PERALTA fazer o gol, 1 a 0. LASK não se intimidou e aos 39 minutos BERTRAND faz outro milagre para
+          evitar a virada e no contra ataque rápido, INÁLCIO amplia fazendo 2 a 0 Botaagua FC.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Segundo tempo controlado.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          O segundo tempo começou com o Botaagua indo para frente, mas aos 57 minutos o LASK teve sua primeira grande chance
+          com HONGLA mas BERTRAND fazia mais uma defesaça. O Botaagua só chegou aos 64 minutos com VEGA, mas o goleiro defendeu.
+          E aos 68 minutos, ADAM tocou para ALONSO que chutou no cantinho e fazendo mais um para o Botaagua. Com o placar
+          favoravel, o time da casa buscou os contra ataques, teve uma grande chance aos 81 com VEGA e outras subsequentes.
+          Mas foi o LASK quem marcou, no final da partida, JAGIELLO faz o gol de honra dos visitantes e fechando o placar
+          final. Botaagua 3 x 1 LASK. 
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Botaagua lidera com 2 pontos de vantagem.'
+      },
+      {
+        type: 'img',
+        value: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/11_1.jpeg?raw=true',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          No outro jogo do grupo, o Mancherter City empatou sem gols contra o Monaco e o grupo ficou assim. O primeiro é o
+          Botaagua liderá com 8 pontos, o City vem em segundo com 6, Monaco é o terceiro com 4 e o LASK com 2. Na próxima
+          rodada vai ter o confronto valendo o primeiro lugar no grupo, Botaagua x Mancherter City na Arena Pabussú. E o
+          confronto valendo possível eliminação entre LASK e Monaco na Áustria.
+        `
+      },
+    ],
+  },
+  {
+    id: '13',
+    publicationDate: '2024-04-27 20:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/12.png?raw=true',
+    title: 'Botaagua perde em casa e vê vaga nos playoffs ameaçada.',
+    titlePageLink: 'Botaagua x Mancherter City',
+    subtitle: 'Botaagua perde em casa de virada para o Manchester City por 2 a 1. City assumi a liderança e o Botaagua vai decidir sua vaga na França.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: 'Tudo igual no primeiro tempo.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Precisando de uma vitória sobre o Manchester City para garantir o primeiro lugar do grupo, o Botaagua foi para cima e
+          logo aos 7 minutos abriu o placar com ALONSO que recebeu lançamento de PERALTA e chutou na saída do goleiro, 1 a 0.
+          O Botaagua teve o controle do jogo pela maior parte do tempo e o City não oferecia perigos. Precisando do resultado,
+          o Manchester foi para cima, e em um lance de escanteio FODEN empatou em uma linda cabeçada por cima do goleiro, 1 a 1.
+          O Botaagua foi para cima, e aos 36 minutos PERALTA perdeu uma chance clarissíma de gol. O City respondeu em aos 45
+          minutos com GALLAGHER onde BERTRAND faz uma defesa incrível.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Derrota amarga.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Com o inicio do segundo tempo, o City foi o primeiro a agir aos 51 minutos, mas o aos 54 o EDERSON, goleiro do Manchester
+          fez milagre no chute de VEGA. Com o passar do tempo, os visitantes começaram a gostar da partida, e em uma bela troca
+          de passes GORETZKA vira o jogo aos 58mminutos, City 2 a 1. O Botaagua foi pra cima, mas as finalizações não estavam boas.
+          O Manchester começou a controlar o jogo, não deu chances ao time da casa e controlou até o fim da partida. Botaagua 1 x 2
+          Manchester City e fim de invencibilidade no campeonato.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Manchester City é o novo líder'
+      },
+      {
+        type: 'img',
+        value: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/12_1.jpeg?raw=true',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Com a vitória o City assumiu a liderança e garantiu sua vaga no mata mata da competição. E no outro jogo do grupo,
+          o Monaco fez 3 a 0 no LASK e está a um ponto do segundo lugar, Botaagua. Na proxima e ultima rodada, o Manchester
+          vai jogar em casa para garantir o primeiro lugar do grupo contra o LASK e o Monaco recebe o Botaagua em casa valendo
+          a ultima vaga para o mata mata da Champions League.
+        `
+      },
+    ],
+  },
+  {
+    id: '14',
+    publicationDate: '2024-04-28 20:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/13.png?raw=true',
+    title: 'Botaagua vence e se garante nos playoffs',
+    titlePageLink: 'Monaco x Botaagua',
+    subtitle: 'Botaagua faz 2 a 0, leva susto no final mas garante a vaga no mata mata da Champions League e espera adversário da proxima fase.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: 'Jogo travado no primeiro tempo.'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Precisando da vitória para se classificar, o Monaco começou pressionando o Botaagua nos primeiros minutos, mas quem
+          teve a primeira chance foi os visitante com DEAN aos 19 minutos. O jogo se mantinha equilibrado, com poucas chances
+          dos dois lados. Aos 29, INÁLCIO assustou mais uma vez o time da casa, mas o goleiro fez uma bela defesa. E com o jogo
+          brigado no meio campo, terminou zerado o primeiro tempo.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Vitória com sustos'
+      },
+      {
+        type: 'paragraph',
+        value: `
+          Com o início do segundo tempo o Botaagua comecou com tudo e faz seu primeiro gol aos 51 minutos com DEAN, um gol que
+          obrigaria o Monaco a virar a partida para se classificar. Porem, o time visitante dominava a partida e aos 57 minutos,
+          VEGA quase amplia de falta. Porem aos 60 minutos, num erro tremendo do goleiro do Monaco, DEAN aproveita e amplia
+          a vantagem, 2 a 0. O Botaagua controlava o jogo, mas aos 73 o BERTRAND fez um milagre que acordou o Monaco na partida,
+          e no lance seguinte, SAGNAN desconta para o Monaco. Com isso, o time da casa foi pra cima, aos 84 minutos, mas um milagre
+          de BERTRAND no chute de DEMIROVIC. EM um contra ataque, DEAN quase fez, mas o Monaco não se abalou e tentou nos minutos
+          finais, mas não conseguiu e o juiz terminou. Monaco 1 x 2 Botaagua.
+        `
+      },
+      {
+        type: 'heading',
+        value: 'Final da fase de grupos.'
+      },
+      {
+        type: 'img',
+        value: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/13_1.jpeg?raw=true',
+      },
+      {
+        type: 'paragraph',
+        value: `
+          O Manchester City que venceu por 3 a 1 o LASK na Inglaterra e ficou com a liderança enquanto que o visitante foi
+          eliminado. Na outra partida, o Botaagua venceu por 2 a 1 e ficou com a segunda colocação e foi para o mata mata da
+          Champions League, já o Monaco foi para as eliminatórias da UEFA Europa League. Os confrontos serão decididos depois
+          e você verá aqui em breve.
         `
       },
     ],

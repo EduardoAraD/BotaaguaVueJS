@@ -21,14 +21,18 @@
         </div>
         <div
           class="d-flex align-center justify-center"
-          :class="state.status === 'finished' ? 'ga-4' : 'ga-10'"
+          :class="state.status === 'finished' ? 'ga-2' : 'ga-10'"
         >
         <v-img height="64" width="64" contain
           :src="clubHome.logo" :alt="clubHome.shortName" />
-        <h2 class="text-h4 font-weight-bold">
-          {{ state.status === 'finished' ? score.goalsHome.length : '' }} - 
-          {{ state.status === 'finished' ? score.goalsAway.length : '' }}
-        </h2>
+        <div class="d-flex align-center justify-center ga-1">
+          <h2 class="text-h4 font-weight-medium">{{ state.status === 'finished' ? goals.home : '' }}</h2>
+          <span v-if="state.hasPenalty" class="text-h6 font-weight-regular">
+            {{ `(${scorePenalty.home} x ${scorePenalty.away})` }}
+          </span>
+          <h2 v-else class="text-h4 font-weight-medium">-</h2>
+          <h2 class="text-h4 font-weight-medium">{{ state.status === 'finished' ? goals.away : '' }}</h2>
+        </div>
         <v-img height="64" width="64" contain
           :src="clubAway.logo" :alt="clubAway.shortName" />
         </div>
@@ -90,10 +94,22 @@
     stage: { type: String, default: '' },
     clubHome: { default: emptyClub },
     clubAway: { default: emptyClub },
+    goals: {
+      type: {
+        home: Number,
+        away: Number,
+      },
+    },
     score: {
       type: {
         goalsHome: Array,
         goalsAway: Array,
+      },
+    },
+    scorePenalty: {
+      type: {
+        home: Number,
+        away: Number,
       },
     }
   })
@@ -101,6 +117,7 @@
   const state = reactive({
     count: { hours: 0, minutes: '00', secunds: '00' },
     status: '',
+    hasPenalty: false,
     isLiveBlink: false,
   })
 
@@ -108,6 +125,14 @@
     const date = new Date(dateMatch).getTime()
     const now = Date.now();
     const diff = (date - now) / 1000;
+
+    if((date - now) < 0) {
+      return {
+        hours: 0,
+        minutes: 0,
+        secunds: 0,
+      }
+    }
 
     const HOURTIME = 60 * 60;
     const MINUTETIME = 60;
@@ -127,6 +152,9 @@
     if(status === 'lived') {
       state.isLiveBlink = true;
     }
+    if(status === 'finished') {
+      state.hasPenalty = props.scorePenalty !== undefined
+    }
     state.status = status;
   })
 
@@ -141,8 +169,15 @@
   watch(() => [state.status, state.count], ([status, _]) => {
     if(status === 'started') {
       setTimeout(() => {
-        state.count = getCountForDateMatch(props.dateMatch)
-      }, 1000)
+        const countdown = getCountForDateMatch(props.dateMatch)
+        state.count = countdown;
+
+        const isCountdownOver =
+          countdown.hours === 0 && countdown.minutes === 0 && countdown.secunds === 0;
+        if(isCountdownOver) {
+          state.status = 'lived'
+        }
+      }, 1000);
     }
   })
 

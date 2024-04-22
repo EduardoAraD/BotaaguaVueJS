@@ -15,6 +15,8 @@
         :clubHome="state.match.home"
         :clubAway="state.match.away"
         :score="state.score"
+        :goals="state.goals"
+        :scorePenalty="state.match.score.scorePenalts"
       />
     </section>
 
@@ -63,6 +65,10 @@
       goalsHome: [],
       goalsAway: [],
     },
+    goals: {
+      home: 0,
+      away: 0,
+    },
     stats: emptyStatsMatch,
   });
 
@@ -70,7 +76,7 @@
     const idMatch = route.params.id.split('-')[0]
 
     setTimeout(() => {
-      const match = getMatchById(idMatch)
+      const match = getMatchById(idMatch);
       if(match !== undefined) {
         state.match = match;
 
@@ -81,10 +87,13 @@
 
         if(isFinishedMatch) {
           state.stats = match.stats
+          state.goals = {
+            home: match.stats.home.goals,
+            away: match.stats.away.goals,
+          }
         }
       }
       state.isMatchLoading = false;
-
     }, 2000);
   })
 

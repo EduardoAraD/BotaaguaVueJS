@@ -1,5 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { ASMonaco, Atalanta, Botaagua, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
+import { ASMonaco, Atalanta, Botaagua, LASK, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
 
 // export const matchs: MatchCompleted[] = [
 //   {
@@ -443,7 +443,7 @@ export const matchsEuropa: MatchCompleted[] = [
         away: 4,
       }
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/jnzB5p97zBs?si=C8ixuzNoBRJObgbf',
     stats: {
       home: {
         goals: 2,
@@ -491,7 +491,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'PERALTA', minute: 85, assistence: 'LOIC' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/d0vVnJTJ4B8?si=y-FEgl7sZEhYg1mk',
     stats: {
       home: {
         goals: 2,
@@ -538,7 +538,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/4QbjWQHC33Y?si=pHwfSp1mvoXFPnLD',
     stats: {
       home: {
         goals: 4,
@@ -560,6 +560,194 @@ export const matchsEuropa: MatchCompleted[] = [
         cornerKick: 1,
         offSide: 0,
         free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '11',
+    home: LASK,
+    away: Botaagua,
+    date: '2024-04-25 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: LASK.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'ALONSO', minute: 18, assistence: 'SCHRODER' },
+      ],
+      goalsAway: [
+        { player: 'SIMMS', minute: 29, assistence: 'B. TOURE' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/riJyeB7f2f0?si=GuHoG8dE4CIF6Piw',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 50,
+        kicks: 7,
+        expectedGoals: 1.5,
+        cornerKick: 2,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 50,
+        kicks: 6,
+        expectedGoals: 1.5,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '12',
+    home: Botaagua,
+    away: LASK,
+    date: '2024-04-26 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'PERALTA', minute: 32, assistence: 'ADAM' },
+        { player: 'INÁLCIO', minute: 45, assistence: 'VEGA' },
+        { player: 'ALONSO', minute: 69, assistence: 'ADAM' },
+      ],
+      goalsAway: [
+        { player: 'JAGIELLO', minute: 90, assistence: 'SABITZO' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/n05AZMLLS0s?si=eq3CK57SiAQS5Dw1',
+    stats: {
+      home: {
+        goals: 3,
+        possession: 44,
+        kicks: 7,
+        expectedGoals: 2.5,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 56,
+        kicks: 9,
+        expectedGoals: 1.3,
+        cornerKick: 4,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '13',
+    home: Botaagua,
+    away: ManchesterCity,
+    date: '2024-04-27 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'ALONSO', minute: 7, assistence: 'PERALTA' },
+      ],
+      goalsAway: [
+        { player: 'FODEN', minute: 30, assistence: 'D. JONG' },
+        { player: 'GORETZKA', minute: 63, assistence: 'HAALAND' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/njBViByLlrQ?si=_P4YPCFFIZNLt6I1',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 48,
+        kicks: 6,
+        expectedGoals: 1.2,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 2,
+        possession: 52,
+        kicks: 7,
+        expectedGoals: 2.2,
+        cornerKick: 2,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '14',
+    home: ASMonaco,
+    away: Botaagua,
+    date: '2024-04-28 19:00:00',
+    publicationDate: '2024-04-21 10:00:00',
+    stadium: ASMonaco.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'SAGNAN', minute: 77 },
+      ],
+      goalsAway: [
+        { player: 'DEAN', minute: 51, assistence: 'VEGA' },
+        { player: 'DEAN', minute: 60 },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/s9SVCOoWWdw?si=-ZSls5Mws8o7meIP',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 52,
+        kicks: 7,
+        expectedGoals: 1.6,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 2,
+        possession: 48,
+        kicks: 6,
+        expectedGoals: 1.8,
+        cornerKick: 3,
+        offSide: 0,
+        free: 1,
         penalty: 0,
         yellowCard: 0,
         redCard: 0,

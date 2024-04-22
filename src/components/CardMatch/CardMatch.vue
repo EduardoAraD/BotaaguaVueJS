@@ -20,7 +20,10 @@
         <h2 class="text-h4 font-weight-medium">
           {{ state.status === 'finished' ? match.score.goalsHome.length : '' }}
         </h2>
-        <span class="text-body-2 text-white">X</span>
+        <span v-if="state.hasPenalty" class="text-body-2">
+          {{ `(${match.score.scorePenalts.home} x ${match.score.scorePenalts.away})` }}
+        </span>
+        <span v-else class="text-body-2 text-white">X</span>
         <h2 class="text-h4 font-weight-medium">
           {{ state.status === 'finished' ? match.score.goalsAway.length : '' }}
         </h2>
@@ -57,13 +60,16 @@
 
   const state = reactive({
     formatDate: '',
+    hasPenalty: false,
     status: 'started',
   })
 
   onMounted(() => {
-    state.status = getStatusMatchByDateHour(props.match.date);
+    const status = getStatusMatchByDateHour(props.match.date);
 
     state.formatDate = formatDate(props.match.date);
+    state.status = status;
+    state.hasPenalty = props.match.score.scorePenalts !== undefined && status === 'finished'
   })
 
 </script>

@@ -53,5 +53,12 @@ export const ASMonaco: Club = {
   name: 'AS Monaco',
   logo: 'https://www.asmonaco.com/wp-content/uploads/2018/09/logo-asm-1-80x80.png',
   shortName: 'ASM',
-  stadium: '',
+  stadium: 'Union Park Stadium',
+}
+
+export const LASK: Club = {
+  name: 'LASK',
+  logo: 'https://img.uefa.com/imgml/TP/teams/logos/100x100/63405.png',
+  shortName: 'ASK',
+  stadium: 'Court Lane',
 }
