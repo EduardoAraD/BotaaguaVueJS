@@ -6,6 +6,7 @@ import MatchVue from '../page/Match/Match.vue'
 import ListNews from '../page/ListNews.vue'
 import NewsDetails from '../page/NewsDetails.vue'
 import Stadium from '../page/Stadium.vue'
+import History from '../page/History.vue'
 
 const routes = [
   { path: '/', component: HomeVue },
@@ -13,7 +14,8 @@ const routes = [
   { path: '/calendario/:id', component: MatchVue },
   { path: '/noticias', component: ListNews },
   { path: '/noticias/:id', component: NewsDetails },
-  { path: '/clube/estadio', component: Stadium }
+  { path: '/clube/estadio', component: Stadium },
+  { path: '/clube/historia', component: History }
 ]
 
 export const router = createRouter({

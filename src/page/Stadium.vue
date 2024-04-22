@@ -13,13 +13,13 @@
           <div class="d-flex flex-column align-center w-100"
             style="background-color: #00000077;"
           >
-            <h1 class="text-h5 font-weight-medium">Arena Pabussú</h1>
+            <h1 class="text-h5">Estádio Town Park</h1>
           </div>
         </div>
       </v-parallax>
       <v-card class="d-flex flex-column align-center justify-center pa-3 ma-4">
-        <p class="text-body-1 font-weight-bold">Arena Pabussú</p>
-        <p class="text-body-1">Capacidade: <span class="font-weight-bold">15.567</span> pessoas</p>
+        <p class="text-body-1 font-weight-bold">Town Park - Arena Pabussu</p>
+        <p class="text-body-1">Capacidade: <span class="font-weight-bold">10.248</span> pessoas</p>
         <p class="text-body-1">Estreia:
           <a
             href="https://youtu.be/cJqVsXWpvso?si=GIjfIUYiCcOLfBHY"
@@ -46,13 +46,13 @@
           <div class="d-flex flex-column align-center w-100"
             style="background-color: #00000077;"
           >
-            <h1 class="text-h5 font-weight-medium">Arena Pabussú</h1>
+            <h1 class="text-h5">Estádio El Medio</h1>
           </div>
         </div>
       </v-parallax>
       <v-card class="d-flex flex-column align-center justify-center pa-3 ma-4">
-        <p class="text-body-1 font-weight-bold">Arena Pabussú</p>
-        <p class="text-body-1">Capacidade: <span class="font-weight-bold">15.567</span> pessoas</p>
+        <p class="text-body-1 font-weight-bold">Estádio El Medi - Arena Pabussú</p>
+        <p class="text-body-1">Capacidade: <span class="font-weight-bold">30.493</span> pessoas</p>
         <p class="text-body-1">Estreia:
           <a
             href="https://youtu.be/ym53flsXVUc?si=6yS9UtcOdXqnqJ56"

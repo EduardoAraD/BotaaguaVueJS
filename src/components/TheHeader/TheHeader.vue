@@ -80,7 +80,7 @@
   import IconLinkHover from '../LinkHover/IconLinkHover.vue'
 
   const sublinksToClub = [
-    { name: "História", link: '/'},
+    { name: "História", link: '/clube/historia'},
     { name: "Elenco", link: '/'},
     { name: "Estádio", link: '/clube/estadio'},
     { name: "Títulos", link: '/'},
