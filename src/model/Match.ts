@@ -1,4 +1,3 @@
-import { Botaagua } from "../lib/data/club";
 import { emptyClub, type Club } from "./Club";
 import { FaseMatch } from "./FaseMatch";
 import { ScoreMatch } from "./Score";

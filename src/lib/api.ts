@@ -3,6 +3,8 @@ import { matchsEuropa } from "./data/matchs";
 import { getStatusMatchByDateHour } from '../utils/getStatusMatch';
 import { news } from "./data/news";
 import { News } from "../model/News";
+import { players } from "./data/players";
+import { Player, positionDefenders, positionMidfielders, positionForwads } from "../model/Player";
 
 export function getListMatch(): Match[] {
   const dateNow = Date.now();
@@ -59,4 +61,40 @@ export function getNewsToCarrousel() {
 
   return getNewsPublishes()
     .filter((_, index) => index < numberNewsToCarrousel);
+}
+
+export function getPlayersCurrent() {
+  const goalkeepers: Player[] = [];
+  const defenders: Player[] = [];
+  const midfielders: Player[] = [];
+  const forwards: Player[] = [];
+
+  players.forEach(player => {
+    const isPlayersGoalkeeper = player.position === 'GOL';
+    if(isPlayersGoalkeeper) {
+      goalkeepers.push(player)
+    }
+
+    const isPlayersDefenders = positionDefenders.includes(player.position);
+    if(isPlayersDefenders) {
+      defenders.push(player)
+    }
+
+    const isPlayersMidfielders = positionMidfielders.includes(player.position);
+    if(isPlayersMidfielders) {
+      midfielders.push(player)
+    }
+
+    const isPlayersForwads = positionForwads.includes(player.position);
+    if(isPlayersForwads) {
+      forwards.push(player)
+    }
+  })
+
+  return {
+    goalkeepers,
+    defenders,
+    midfielders,
+    forwards,
+  }
 }

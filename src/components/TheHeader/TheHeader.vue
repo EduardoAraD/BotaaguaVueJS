@@ -80,18 +80,17 @@
   import IconLinkHover from '../LinkHover/IconLinkHover.vue'
 
   const sublinksToClub = [
-    { name: "História", link: '/clube/historia'},
-    { name: "Elenco", link: '/'},
-    { name: "Estádio", link: '/clube/estadio'},
-    { name: "Títulos", link: '/'},
+    { name: "História", link: '/clube/historia' },
+    { name: "Elenco", link: '/clube/elenco' },
+    { name: "Estádio", link: '/clube/estadio' },
   ]
   const sublinksToSoccer = [
     { name: "Calendário", link: '/calendario' },
-    { name: "Competição", link: '/'},
+    { name: "Competição", link: '/' },
   ]
   const sublinksToESports = [
-    { name: "CS 2", link: '/'},
-    { name: "League of Legends", link: '/'},
+    { name: "CS 2", link: '/' },
+    { name: "League of Legends", link: '/' },
   ]
 
   const state = reactive({
