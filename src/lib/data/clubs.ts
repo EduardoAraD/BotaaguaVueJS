@@ -62,3 +62,31 @@ export const LASK: Club = {
   shortName: 'ASK',
   stadium: 'Court Lane',
 }
+
+export const AtleticoMadrid: Club = {
+  name: 'Atlético de Madrid',
+  logo: 'https://en.atleticodemadrid.com/system/escudos/715/original/ORIGINALATM.png?1687083181',
+  shortName: 'ATM',
+  stadium: 'Estádio Metropolitano',
+}
+
+export const Chelsea: Club = {
+  name: 'Chelsea FC',
+  logo: 'https://img.chelseafc.com/image/upload/f_auto,c_pad,w_230,h_230,ar_1,q_auto:best/Site%20Chelsea%20Badges/Main_Website_Badge_-_Colour.png',
+  shortName: 'CHE',
+  stadium: 'Stamford Bridge',
+}
+
+export const Napoli: Club = {
+  name: 'Atlético de Madrid',
+  logo: 'https://cdn.sscnapoli.it/wp-content/uploads/2022/08/loghi_400x400_0007_napoli.png',
+  shortName: 'NAP',
+  stadium: 'Stadion Olympik',
+}
+
+export const PSG: Club = {
+  name: 'Paris Saint-Germain',
+  logo: 'https://www.psg.fr/media/2874/psg_logo_seul_volume_rvb.png',
+  shortName: 'PSG',
+  stadium: 'Parc des Princes',
+}

@@ -1,14 +1,17 @@
+interface DescriptionNews {
+  type: 'paragraph' | 'img' | 'heading' | 'carousel';
+  value: String[];
+}
+
 export interface News {
   id: string;
+  idMatch?: string;
   image: string;
   titlePageLink: string;
   title: string;
   subtitle: string;
   publicationDate: string;
-  descriptions: {
-    type: 'paragraph' | 'img' | 'heading',
-    value: string;
-  }[];
+  descriptions: DescriptionNews[];
 }
 
 export const emptyNews: News = {

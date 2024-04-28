@@ -1,5 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { ASMonaco, Atalanta, Botaagua, LASK, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
+import { ASMonaco, Atalanta, AtleticoMadrid, Botaagua, LASK, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
 
 // export const matchs: MatchCompleted[] = [
 //   {
@@ -104,10 +104,10 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Oitavas de Final',
     score: {
       goalsHome: [
-        { player: 'KOREN', minute: 86, assistence: 'PLEA' },
+        { player: 'KOREN', minute: '86', assistence: 'PLEA' },
       ],
       goalsAway: [
-        { player: 'VEGA', minute: 25, assistence: 'ANDRADE' },
+        { player: 'VEGA', minute: '25', assistence: 'ANDRADE' },
       ],
     },
     video: 'https://www.youtube.com/embed/HGdg0WrNk88?si=7bwW3jwmI_SS8Qzs',
@@ -150,9 +150,9 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Quartas de Final',
     score: {
       goalsHome: [
-        { player: 'PERALTA', minute: 14, assistence: 'AGUADO' },
-        { player: 'VEGA', minute: 38, assistence: 'ANDRADE' },
-        { player: 'ANDRADE', minute: 74, assistence: 'AGUADO' },
+        { player: 'PERALTA', minute: '14', assistence: 'AGUADO' },
+        { player: 'VEGA', minute: '38', assistence: 'ANDRADE' },
+        { player: 'ANDRADE', minute: '74', assistence: 'AGUADO' },
       ],
       goalsAway: [],
     },
@@ -196,13 +196,13 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Quartas de Final',
     score: {
       goalsHome: [
-        { player: 'ÁLVAREZ', minute: 72 },
-        { player: 'AOUAR', minute: 90, assistence: 'LINDSTROM' },
+        { player: 'ÁLVAREZ', minute: '72' },
+        { player: 'AOUAR', minute: '90 + 5', assistence: 'LINDSTROM' },
       ],
       goalsAway: [
-        { player: 'INÁLCIO', minute: 11, assistence: 'AGUADO' },
-        { player: 'ANDRADE', minute: 26 },
-        { player: 'PERALTA', minute: 66 },
+        { player: 'INÁLCIO', minute: '11', assistence: 'AGUADO' },
+        { player: 'ANDRADE', minute: '26' },
+        { player: 'PERALTA', minute: '66' },
       ],
     },
     video: 'https://www.youtube.com/embed/FJMa4oTQBq8?si=mUVnbCUK0HDkt5Qv',
@@ -245,10 +245,10 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Quartas de Final',
     score: {
       goalsHome: [
-        { player: 'ANDRADE', minute: 39, assistence: 'AGUADO' },
+        { player: 'ANDRADE', minute: '39', assistence: 'AGUADO' },
       ],
       goalsAway: [
-        { player: 'AOUAR', minute: 33, assistence: 'WARD-PROWSE' },
+        { player: 'AOUAR', minute: '33', assistence: 'WARD-PROWSE' },
       ],
     },
     video: 'https://www.youtube.com/embed/FK3sW13hJPE?si=nY6t5KZ6dfxoRqFi',
@@ -291,12 +291,12 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Semi-final',
     score: {
       goalsHome: [
-        { player: 'ANDRADE', minute: 40, assistence: 'PERALTA' },
-        { player: 'VEGA', minute: 63, assistence: 'ANDRADE' },
-        { player: 'PERALTA', minute: 85, assistence: 'ANDRADE' },
+        { player: 'ANDRADE', minute: '40', assistence: 'PERALTA' },
+        { player: 'VEGA', minute: '63', assistence: 'ANDRADE' },
+        { player: 'PERALTA', minute: '85', assistence: 'ANDRADE' },
       ],
       goalsAway: [
-        { player: 'BOADU', minute: 35 },
+        { player: 'BOADU', minute: '35' },
       ],
     },
     video: 'https://www.youtube.com/embed/CZMx9p9WSuI?si=65rwyuSMEKNi2c9L',
@@ -339,11 +339,11 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Semi-final',
     score: {
       goalsHome: [
-        { player: 'MAXI GÓMEZ', minute: 40, assistence: 'VERETOUT' },
-        { player: 'GRIEZMANN', minute: 89, assistence: 'VERETOUT' },
+        { player: 'MAXI GÓMEZ', minute: '40', assistence: 'VERETOUT' },
+        { player: 'GRIEZMANN', minute: '89', assistence: 'VERETOUT' },
       ],
       goalsAway: [
-        { player: 'ANDRADE', minute: 5 },
+        { player: 'ANDRADE', minute: '5' },
       ],
     },
     video: 'https://www.youtube.com/embed/lYlRtWXvj3o?si=4WanAqkWJPOn1yL4',
@@ -386,8 +386,8 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Final',
     score: {
       goalsHome: [
-        { player: 'VEGA', minute: 26, assistence: 'ANDRADE' },
-        { player: 'VEGA', minute: 45, assistence: 'ADAM' },
+        { player: 'VEGA', minute: '26', assistence: 'ANDRADE' },
+        { player: 'VEGA', minute: '45', assistence: 'ADAM' },
       ],
       goalsAway: [],
     },
@@ -431,12 +431,12 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Final',
     score: {
       goalsHome: [
-        { player: 'HAALAND', minute: 38, assistence: 'GALLAGHER' },
-        { player: 'GORETZKA', minute: 105, assistence: 'RODRYGO' },
+        { player: 'HAALAND', minute: '38', assistence: 'GALLAGHER' },
+        { player: 'GORETZKA', minute: '105 + 2', assistence: 'RODRYGO' },
       ],
       goalsAway: [
-        { player: 'VEGA', minute: 27 },
-        { player: 'VEGA', minute: 120, assistence: 'DICKINSON' },
+        { player: 'VEGA', minute: '27' },
+        { player: 'VEGA', minute: '120 + 2', assistence: 'DICKINSON' },
       ],
       scorePenalts: {
         home: 5,
@@ -483,12 +483,12 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'RODRYGO', minute: 26, assistence: 'HAALAND' },
-        { player: 'HAALAND', minute: 59, assistence: 'DE JONG' },
+        { player: 'RODRYGO', minute: '26', assistence: 'HAALAND' },
+        { player: 'HAALAND', minute: '59', assistence: 'DE JONG' },
       ],
       goalsAway: [
-        { player: 'HERNÁNDEZ (C)', minute: 67 },
-        { player: 'PERALTA', minute: 85, assistence: 'LOIC' },
+        { player: 'HERNÁNDEZ (C)', minute: '67' },
+        { player: 'PERALTA', minute: '85', assistence: 'LOIC' },
       ],
     },
     video: 'https://www.youtube.com/embed/d0vVnJTJ4B8?si=y-FEgl7sZEhYg1mk',
@@ -531,10 +531,10 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'ALONSO', minute: 59, assistence: 'INÁLCIO' },
-        { player: 'SCHRODER', minute: 76, assistence: 'PERALTA' },
-        { player: 'ALONSO', minute: 76, assistence: 'SCHRODER' },
-        { player: 'ALONSO', minute: 90, assistence: 'DICKINSON' },
+        { player: 'ALONSO', minute: '59', assistence: 'INÁLCIO' },
+        { player: 'SCHRODER', minute: '76', assistence: 'PERALTA' },
+        { player: 'ALONSO', minute: '82', assistence: 'SCHRODER' },
+        { player: 'ALONSO', minute: '90 + 3', assistence: 'DICKINSON' },
       ],
       goalsAway: [],
     },
@@ -578,10 +578,10 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'ALONSO', minute: 18, assistence: 'SCHRODER' },
+        { player: 'ALONSO', minute: '18', assistence: 'SCHRODER' },
       ],
       goalsAway: [
-        { player: 'SIMMS', minute: 29, assistence: 'B. TOURE' },
+        { player: 'SIMMS', minute: '29', assistence: 'B. TOURE' },
       ],
     },
     video: 'https://www.youtube.com/embed/riJyeB7f2f0?si=GuHoG8dE4CIF6Piw',
@@ -624,12 +624,12 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'PERALTA', minute: 32, assistence: 'ADAM' },
-        { player: 'INÁLCIO', minute: 45, assistence: 'VEGA' },
-        { player: 'ALONSO', minute: 69, assistence: 'ADAM' },
+        { player: 'PERALTA', minute: '32', assistence: 'ADAM' },
+        { player: 'INÁLCIO', minute: '45', assistence: 'VEGA' },
+        { player: 'ALONSO', minute: '69', assistence: 'ADAM' },
       ],
       goalsAway: [
-        { player: 'JAGIELLO', minute: 90, assistence: 'SABITZO' },
+        { player: 'JAGIELLO', minute: '90 + 3', assistence: 'SABITZO' },
       ],
     },
     video: 'https://www.youtube.com/embed/n05AZMLLS0s?si=eq3CK57SiAQS5Dw1',
@@ -672,11 +672,11 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'ALONSO', minute: 7, assistence: 'PERALTA' },
+        { player: 'ALONSO', minute: '7', assistence: 'PERALTA' },
       ],
       goalsAway: [
-        { player: 'FODEN', minute: 30, assistence: 'D. JONG' },
-        { player: 'GORETZKA', minute: 63, assistence: 'HAALAND' },
+        { player: 'FODEN', minute: '30', assistence: 'D. JONG' },
+        { player: 'GORETZKA', minute: '63', assistence: 'HAALAND' },
       ],
     },
     video: 'https://www.youtube.com/embed/njBViByLlrQ?si=_P4YPCFFIZNLt6I1',
@@ -719,11 +719,11 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Fase de Grupos',
     score: {
       goalsHome: [
-        { player: 'SAGNAN', minute: 77 },
+        { player: 'SAGNAN', minute: '77' },
       ],
       goalsAway: [
-        { player: 'DEAN', minute: 51, assistence: 'VEGA' },
-        { player: 'DEAN', minute: 60 },
+        { player: 'DEAN', minute: '51', assistence: 'VEGA' },
+        { player: 'DEAN', minute: '60' },
       ],
     },
     video: 'https://www.youtube.com/embed/s9SVCOoWWdw?si=-ZSls5Mws8o7meIP',
@@ -748,6 +748,100 @@ export const matchsEuropa: MatchCompleted[] = [
         cornerKick: 3,
         offSide: 0,
         free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '15',
+    home: Botaagua,
+    away: AtleticoMadrid,
+    date: '2024-04-29 19:00:00',
+    publicationDate: '2024-04-29 00:00:01',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Oitavas de Final',
+    score: {
+      goalsHome: [
+        { player: 'ALONSO', minute: '45 + 1', assistence: 'INÁLCIO' },
+        { player: 'INÁLCIO', minute: '66' },
+        { player: 'VEGA', minute: '78', assistence: 'DICKINSON' },
+      ],
+      goalsAway: [
+        { player: 'RICHARLISON', minute: '17', assistence: 'MANU KONE' },
+        { player: 'SZOBOSZLAI', minute: '54' },
+        { player: 'SZOBOSZLAI', minute: '90 + 4', assistence: 'MAZRADUI' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 3,
+        possession: 53,
+        kicks: 8,
+        expectedGoals: 2.9,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 3,
+        possession: 47,
+        kicks: 4,
+        expectedGoals: 1.4,
+        cornerKick: 0,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '16',
+    home: AtleticoMadrid,
+    away: Botaagua,
+    date: '2024-04-30 19:00:00',
+    publicationDate: '2024-04-29 00:00:01',
+    stadium: AtleticoMadrid.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Oitavas de Final',
+    score: {
+      goalsHome: [],
+      goalsAway: [
+        { player: 'ADAM', minute: '77', assistence: 'ANDRADE' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 0,
+        possession: 45,
+        kicks: 7,
+        expectedGoals: 2.1,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 55,
+        kicks: 5,
+        expectedGoals: 1.9,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
         penalty: 0,
         yellowCard: 0,
         redCard: 0,

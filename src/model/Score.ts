@@ -1,6 +1,6 @@
 export interface Score {
   player: string;
-  minute: number;
+  minute: string;
   assistence?: string;
   isPenalty?: boolean;
 }

@@ -23,9 +23,9 @@
 
 <script lang="ts" setup>
   defineProps<{
-    image: { type: HTMLImageElement },
-    id: { type: String },
-    title: { type: String },
-    pageLink: { type: String },
+    image: HTMLImageElement,
+    id: String,
+    title: String,
+    pageLink: String,
   }>();
 </script>

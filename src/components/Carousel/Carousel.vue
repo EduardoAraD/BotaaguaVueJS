@@ -52,6 +52,4 @@
       state.isLoadingNews = false;
     }, 2000);
   })
-</script>import { RouterLink } from 'vue-router';
-import { RouterLink } from 'vue-router';
-
+</script>

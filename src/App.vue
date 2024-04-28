@@ -8,9 +8,8 @@
   </v-app>
 </template>
 
-<script setup lang="ts">
-import TheHeader from './components/TheHeader/TheHeader.vue'
-import TheFooter from './components/Footer'
-  //
-</script>
+<script setup>
+  import TheHeader from './components/TheHeader/TheHeader.vue'
+  import TheFooter from './components/Footer/index.vue'
 
+</script>
