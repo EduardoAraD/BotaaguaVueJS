@@ -913,4 +913,350 @@ export const news: News[] = [
       }
     ],
   },
+  {
+    id: '18',
+    idMatch: '17',
+    publicationDate: '2024-05-01 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/17_quartas.jpeg?raw=true',
+    title: 'Botaagua vence e decide em casa a vaga nas semis',
+    titlePageLink: 'Chelsea x Botaagua',
+    subtitle: 'Botaagua joga bem, vence por 1 a 0 em Stamford Bridge e decide em casa a vaga nas Semi-finais da Champions League',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua na frente do placar']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou brigado, os dois times disputando a bola no meio, o primeiro chute saiu aos 7 minutos em uma
+          defesa tranquila de BERTRAND. A primeira chegada do Botaagua saiu aos 20 minutos com PERALTA, mas o goleiro
+          defendeu bem. A primeira chance real de gol foi com HAVERTZ que passou pela defesa e chutou em cima do gol.
+          O jogo se encaminhava para o final do primeiro tempo, até que no contra-ataque do Botaagua, INÁLCIO foi lançado
+          por VEGA, carregou até a grande aréa e chutou na saída do goleiro, Botaagua 1 a 0.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Uma vitória tranquila']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O segundo tempo começou com o Botaagua no ataque, logo aos 49 ANDRADE obrigou a DANLAD fazer uma grande defesa. Em
+          seguida, em cobrança de escanteio, NOVAK toca de cabeça e CHILWELL tira em cima da linha. O Botaagua tinha o
+          dóminio de jogo e o Chelsea não conseguia atacar, e aos 65 minutos PERALTA recebeu livre e chutou na cara do
+          goleiro e DANLAD fez um milagre para defender. Com o controle do jogo, o Botaagua criava poucas chances e o time
+          da casa não conseguia atacar e foi assim até o final da partida. Chelsea 0x1 Botaagua, e vai decidir em casa a
+          vaga nas semi-finais da Champions League.
+          `,
+        ],
+      },
+    ],
+  },
+  {
+    id: '19',
+    idMatch: '18',
+    publicationDate: '2024-05-02 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/18_quartas.jpeg?raw=true',
+    title: 'Botaagua vence denovo e está na semi-final',
+    titlePageLink: 'Botaagua x Chelsea',
+    subtitle: 'Com dois gols de ANDRADE, Botaagua vence por 2 a 0 e está nas semi-finais da UEFA Champions League',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua controlando o jogo']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Precisando vencer o Chelsea começou pressionando, a primeira chance saiu com ADEYEMI aos 6 minutos. O Chelsea
+          pressionava na saída de bola, o Botaagua parecia acuado. Depois dos 15 minutos iniciais, o time da casa acordou
+          e aos 23 minutos INÁLCIO chutou no canto e o LÓPEZ fez uma defesaça. E no lance seguinte, ANDRADE recebeu a bola
+          fez um chutasso no canto para fazer 1 a 0 para dos donos da casa. Com a saída de bola, o Chelsea foi pra
+          cima, porém não passava pela defesa, já o Botaagua partia para os contra-ataques e aos 43 minutos, ANDRADE
+          recebeu livre e tentou de cavadinha para a defesa do goleiro.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória tranquila']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O segundo tempo começou com o controle total do Botaagua, e aos 55 minutos, ANDRADE recebeu na entrada da área
+          e chutou para fora, bem rante a trave. Porém no tiro de meta, LÓPEZ vacilou e entregou nos pés de ANDRADE que encheu
+          o pé e marcou seu segundo gol, Botaagua 2 a 0. O Chelsea tentava mas nada funcionava, o time da casa tinha
+          o domínio completo o jogo, se defendia bem, os contra-ataques era fortíssimos. O Chelsea teve suas últimas chance, aos
+          88 minutos com ADEYEMI a queima roupa e o BERTRAND faz milagre, e com HAVERTZ em cabeçada que LOIC tirou em cima da linha.
+          Fim de jogo, Botaagua 2x0 Chelsea, Botaagua nas semi-finais.
+          `,
+        ],
+      },
+      {
+        type: 'heading',
+        value: ['Estamos nas semi-finais da Champions']
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/18_quartas_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/18_quartas_2.jpeg?raw=true'
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `O Botaagua venceu no placar agregado por 3 a 0 do Chelsea e está nas semi-finais. E vai enfrentar o Napoli FC,
+          que passou pela ROMA por 3 a 2 no agregado. Na outra semi-final, vamos ter Bayern Muchen contra o PSG, o PSG que
+          vem desafiando os maiores e derrotando todos, o primeiro foi o Real Madrid e agora o Mancherter City. As semis vão
+          pegar fogo, quem será que vai para a final no Estádio da Luz em Portugal.`,
+        ]
+      },
+    ],
+  },
+  {
+    id: '20',
+    idMatch: '19',
+    publicationDate: '2024-05-03 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/19_semi.jpeg?raw=true',
+    title: 'Botaagua vence e larga na frente nas semi-finais',
+    titlePageLink: 'Botaagua x Napoli',
+    subtitle: 'Com o gol no apagar das luzes, o Botaagua vence por 1 a 0 e precisa de um empate para estar na final.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Tudo igual no primeiro tempo']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Jogando em casa, o Botaagua começou no ataque aos 9 minutos INÁLCIO chutou e o goleiro fez bela defesa. Depois
+          disso, o jogo ficou brigado, os dois times buscavam o ataque porém a defesa era superior em todos os aspectos.
+          O jogo se manteve assim no decorrer do jogo, a primeira chance do Napoli só aconteceu aos 45 minutos com LOZANO
+          mas BERTRAND fez a defesa.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Uma vitória no último minuto']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          No segundo tempo, o Botaagua começou com tudo e aos 49 minutos, ANDRADE chutou e BAZUNU fez uma defesaça. E aos
+          55 minutos, ADAM chutou no canto e BAZUNU fez mais um milagre. Era pressão total do Botaagua, mais o gol não
+          saia. ANDRADE teve mais uma chance aos 64 minutos com BAZUNU fazendo mais uma defesa. O Botaagua pressionava
+          o Napoli que só se defendia no segundo tempo. O jogo se emcaminhava para o final até que, aos 91 minutos INÁLCIO
+          lança ANDRADE que invade a grande área e chuta na saída do goleiro para marcar o único gol do jogo. Botagua 1x0
+          Napoli, e vitória em casa.
+          `,
+        ],
+      },
+      {
+        type: 'heading',
+        value: ['Na outra semi-final']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/19_semi_1.jpeg?raw=true']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `O Botaagua vence por 1 a 0 em casa e larga na frente nas semi-finais. No outro jogo o PSG venceu
+          o primeiro confronto em Paris por 2 a 1 e vai para a Alemanha precisando de apenas um empate para
+          passar para a final.`
+        ]
+      }
+    ],
+  },
+  {
+    id: '21',
+    idMatch: '20',
+    publicationDate: '2024-05-04 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/20_semi.jpeg?raw=true',
+    title: 'O Botaagua está na grande final',
+    titlePageLink: 'Napoli x Botaagua',
+    subtitle: 'Botaagua empata com o Napoli por 1 a 1 e está na final da UEFA Champions League.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Domínio completo']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou com o Botaagua no ataque e fazendo um gol aos 4 minutos de jogo, PERALTA cruzou para ANDRADE
+          aceitar um lindo voleio e vencer o goleiro, 1 a 0 para os visitantes. O Napoli sentiu o gol, o Botaagua continuava
+          no ataque e aos 13 minutos INÁLCIO chutou e TRUBIN fez a defesa, aos 15, o goleiro fazia mais uma defesa difício
+          no chute de INÁLCIO. O Botaagua tinha o controle do jogo, aos 26 minutos, VEGA obrigou a TRUBIN fazer mais uma
+          defesa. O Napoli só teve sua primeira chance com BARROW, aos 36 minutos, em um chute para fora. Aos 41 minutos,
+          ANDRADE chuta bem e TRUBIN fazia sua 5 defesa no jogo.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Segundo tempo no sufoco']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O segundo tempo começou com o Napoli no ataque, porém a primeira chance foi dos visitante com VEGA em mais uma
+          defesa de TRUBIN. O Napoli parecia acuado até que aos 64 minutos, ZIELINSKI aceitou um chute inacreditável de
+          longe e marcou um golaço e empata o jogo. Com o gol, o time da casa acordou e foi em busca do gol para levar o
+          jogo para a prorrogação. E aos 76 minutos, ESTRADA cruza na segunda trave e MADDISON acerta um voleio e BERTRAND
+          faz uma defesaça. O Botaagua contra-atacava mais não levava mais perigo, o jogo estava nas mãos do Napoli. Porém
+          nos minutos finais, o time visitante manteve a bola em posse para ter riscos de ataque atrás. E com o apito do juiz,
+          o Botaagua estava na final da Champions League.
+          `,
+        ],
+      },
+      {
+        type: 'heading',
+        value: ['Final definida']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/20_semi_1.jpeg?raw=true']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `O Botaagua está na sua primeira final de UEFA Champions League depois de vencer por 2 a 1, no placar agregado, o Napoli.
+          Na outra semi-final, o PSG venceu denovo o Bayern e vem como o favorito para a final. A final vai acontecer em Portugal
+          no Estádio da Luz no dia 05 de maio a partir das 19hrs.`
+        ]
+      }
+    ],
+  },
+  {
+    id: '22',
+    publicationDate: '2024-05-05 10:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/21_pre_final.jpeg?raw=true',
+    title: 'FINAL: PSG x Botaagua',
+    titlePageLink: 'PSG x Botaagua',
+    subtitle: 'Final da UEFA Champions League, Botaagua e PSG se enfrentam numa final inédita.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['A campanha do Botaagua FC']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O Botaagua passou em segundo lugar no seu grupo com 11 pontos, 3 vitórias, 2 empates e 1 derrota. Fez 13 gols
+          e tomou 7. Sua unica derrota foi contra o Manchester City em casa por 2 a 1. Nas oitavas, enfrentou o Atlético
+          de Madrid e foi um sufoco, depois do empate em 3 a 3 em casa foi vencer fora por 1 a 0 para chegar nas quartas.
+          Nas quartas de final enfrentou o Chelsea em dois jogos controlados venceu com o placar agregado de 3 a 0. Nas
+          semi-finais enfrentou o Napoli e vencendo o primeiro jogo por 1 a 0 e empatando o segundo chegou a final. Nessa
+          campanha na Champions League o Botaagua teve 7 vitórias, 4 empates e 1 derrota, fazendo 22 gols e sofrendo 11,
+          ainda está invicto no mata mata e vem como o 'underdog' para essa final.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['A campanha do Paris Saint-Germain.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O Paris Saint-Germain fez uma campanha quase perfeita na fase de grupos, 5 vitórias em 6 jogos, só não
+          venceu o jogo de estreia contra o Napoli que empatou em 0 a 0. Passou em primeiro e por azar do destino,
+          enfrentou o Real Madrid nas oitavas e em dois jogos disputados, a decição ficou para os penaltis depois de
+          empates de 3 a 3 e 1 a 1. E o PSG passou com o placar de 5 a 4 nas penalidades. Nas quartas enfrentou o
+          Manchester City e depois de empatar na Inglaterra em 2 a 2, venceu em casa por 3 a 2 e foi para as semi-finais.
+          Contra o Bayern, nas semis, o PSG venceu os dois jogos, em casa por 2 a 1 e na Alemanha por 2 a 0. Chega
+          nessa final invicto com 8 vitórias e 4 empates, tendo a melhor campanha e melhor ataque com 26 gols feitos
+          e 13 sofridos. Vem como o grande favorito para essa final.
+        `],
+      },
+      {
+        type: 'heading',
+        value: ['Final da UEFA Champions League'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          PSG e Botaagua se enfrentam pela primeira vez em uma final de UEFA Champions League. O PSG tem a melhor campanha,
+          mas o Botaagua não está atrás. Os dois times vão com forma máxima para a final. O jogo vai ser disputado em
+          Portugal no Estádio da Luz no dia 05 de maio ás 19hrs.
+        `]
+      }
+    ],
+  },
+  {
+    id: '23',
+    idMatch: '21',
+    publicationDate: '2024-05-05 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final.png?raw=true',
+    title: 'O Botaagua é campeão da UEFA Champions League',
+    titlePageLink: 'Botaagua é campeão',
+    subtitle: 'Botaagua vence por 3 a 0 o PSG e é campeão da UEFA Champions League.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Vantagem para o Botaagua.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O jogo começou com o Botaagua com a posse e aos 5 minutos, ANDRADE já coloca o DONNARUMMA para trabalhar
+          com uma bela defesa no canto. O PSG começou a equilibrar as ações, mas não conseguia passar pela defesa. O
+          primeiro chute do PSG saiu aos 22 com ALVARÉZ, mas foi por cima. Aos 26 minutos, ANDRADE recebeu livre e chutou
+          no canto e DONNARUMMA fazia mais um milagre. Até que aos 35 minutos, a zaga do Botaagua falha e ALVAREZ chutou
+          para BERTRAND fazer um milagre, parecia um gol certo para o PSG. O jogo se emcaminhava para o 0 a 0 no primeiro
+          tempo até que ANDRADE achou um passe para INÁLCIO entrar na grande área e chutar no canto para fazer 1 a 0 para
+          o Botaagua.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Domínio absoluto']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O segundo tempo começou com o PSG trocando passes e buscando o ataque, porém aos 54 minutos, em um contra-ataque,
+          PERALTA foi lançado e chutou na saída do goleiro, marcando o segundo gol do Botaagua. Com o segundo gol, o PSG
+          não conseguia mais jogar, o Botaagua tomou conta do jogo e aos 59 minutos, DONNARUMMA fez mais um milagre e evitando
+          o terceiro gol. Com o domínio total, o Botaagua atacou, e aos 70 minutos fez o terceiro com ANDRADE para sacramentar
+          o título. O PSG não demonstrava reação e o título era questão de tempo. Mesmo com NEYMAR e MBAPPE, o time não atacava
+          o Botaagua colocava pressão do início ao fim, aos 81 minutos ANDRADE obrigou o DONNARUMMA fazer mais uma defesaça,
+          aos 84, NOVAK cabeçiou e VITINHA tirou em cima da linha. Aos 89 o saiu mais um gol só que foi em impedimento. Aos
+          90 + 3, mais uma defesaça de DONNARUMMA e com o final da partida o Botaagua é campeão da UEFA Champions League.
+        `],
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua é campeão.'],
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final_1.png?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O Botaagua é campeão da UEFA Champions League. Teve uma campanha extraordinária com 8 vitórias em 13 jogos.
+          É o segundo título internacional do clube e o primeiro nessa competição. Com o título garantido, o Botaagua
+          vai disputar, no ínicio da proxima temporada, a UEFA Super Cup com o vencedor da UEFA Europa League.
+          Em breve teremos mais informações sobre a data e hora do jogo.
+        `]
+      }
+    ],
+  },
 ];
