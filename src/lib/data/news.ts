@@ -755,7 +755,7 @@ export const news: News[] = [
   },
   {
     id: '15',
-    publicationDate: '2024-04-28 00:00:01',
+    publicationDate: '2024-04-29 00:00:01',
     image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/14_sorteio_2.jpeg?raw=true',
     title: 'Botaagua enfrenta o Atlético de Madrid nas Oitavas da Champions League',
     titlePageLink: 'Sorteio dos playoffs',
@@ -1145,7 +1145,7 @@ export const news: News[] = [
   },
   {
     id: '22',
-    publicationDate: '2024-05-05 10:00:00',
+    publicationDate: '2024-05-05 00:00:01',
     image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/21_pre_final.jpeg?raw=true',
     title: 'FINAL: PSG x Botaagua',
     titlePageLink: 'PSG x Botaagua',
