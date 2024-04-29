@@ -1,5 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { ASMonaco, Atalanta, AtleticoMadrid, Botaagua, LASK, ManchesterCity, OlympiqueMarseille, Sevilla, StadeRennais, Tottenham } from "./clubs";
+import { ASMonaco, Atalanta, AtleticoMadrid, Botaagua, Chelsea, LASK, ManchesterCity, Napoli, OlympiqueMarseille, PSG, Sevilla, StadeRennais, Tottenham } from "./clubs";
 
 // export const matchs: MatchCompleted[] = [
 //   {
@@ -776,7 +776,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'SZOBOSZLAI', minute: '90 + 4', assistence: 'MAZRADUI' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/8lRCOcl8D_k?si=LnoJJ7BvhvMhU9ZL',
     stats: {
       home: {
         goals: 3,
@@ -820,7 +820,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'ADAM', minute: '77', assistence: 'ANDRADE' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/ZL1m1YQwocY?si=mNz4L6B1faGdcEaj',
     stats: {
       home: {
         goals: 0,
@@ -842,6 +842,231 @@ export const matchsEuropa: MatchCompleted[] = [
         cornerKick: 1,
         offSide: 0,
         free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '17',
+    home: Chelsea,
+    away: Botaagua,
+    date: '2024-05-01 19:00:00',
+    publicationDate: '2024-04-30 20:00:00',
+    stadium: Chelsea.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: "Quartas de Final",
+    score: {
+      goalsHome: [],
+      goalsAway: [
+        { player: 'INÁLCIO', minute: '44', assistence: 'VEGA' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/YcnCgAvKfoU?si=sohOwaGBCNDo1YZs',
+    stats: {
+      home: {
+        goals: 0,
+        possession: 40,
+        kicks: 3,
+        expectedGoals: 0.7,
+        cornerKick: 0,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 60,
+        kicks: 8,
+        expectedGoals: 1.6,
+        cornerKick: 1,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '18',
+    home: Botaagua,
+    away: Chelsea,
+    date: '2024-05-02 19:00:00',
+    publicationDate: '2024-04-30 20:00:00',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: "Quartas de Final",
+    score: {
+      goalsHome: [
+        { player: 'ANDRADE', minute: '27', assistence: 'NOVAK' },
+        { player: 'ANDRADE', minute: '57' },
+      ],
+      goalsAway: [],
+    },
+    video: 'https://www.youtube.com/embed/XClX94BeSF8?si=FGw-e8yOpBcpvJVF',
+    stats: {
+      home: {
+        goals: 2,
+        possession: 47,
+        kicks: 6,
+        expectedGoals: 2.2,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 53,
+        kicks: 6,
+        expectedGoals: 1.5,
+        cornerKick: 2,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '19',
+    home: Botaagua,
+    away: Napoli,
+    date: '2024-05-03 19:00:00',
+    publicationDate: '2024-05-02 20:00:00',
+    stadium: Botaagua.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: "Semi-final",
+    score: {
+      goalsHome: [
+        { player: 'ANDRADE', minute: '90 + 1', assistence: 'INÁLCIO' },
+      ],
+      goalsAway: [],
+    },
+    video: 'https://www.youtube.com/embed/cO1EX5m0SJk?si=8rSKQng4KT2eixRo',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 52,
+        kicks: 7,
+        expectedGoals: 2.7,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 48,
+        kicks: 3,
+        expectedGoals: 0.7,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '20',
+    home: Napoli,
+    away: Botaagua,
+    date: '2024-05-04 19:00:00',
+    publicationDate: '2024-05-02 20:00:00',
+    stadium: Napoli.stadium,
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: "Semi-final",
+    score: {
+      goalsHome: [
+        { player: 'ZIELINSKI', minute: '65', assistence: 'KVARATSKHELIA' },
+      ],
+      goalsAway: [
+        { player: 'ANDRADE', minute: '5', assistence: 'PERALTA' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/cndTacFyGZ8?si=p1YAHy-Bh3JmvESh',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 51,
+        kicks: 5,
+        expectedGoals: 1.3,
+        cornerKick: 0,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 49,
+        kicks: 9,
+        expectedGoals: 2.9,
+        cornerKick: 4,
+        offSide: 1,
+        free: 1,
+        penalty: 0,
+        yellowCard: 1,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '21',
+    home: PSG,
+    away: Botaagua,
+    date: '2024-05-05 19:00:00',
+    publicationDate: '2024-05-04 20:00:00',
+    stadium: '',
+    championship: 'UEFA Champions League',
+    season: 2,
+    stage: 'Final',
+    score: {
+      goalsHome: [],
+      goalsAway: [
+        { player: 'INÁLCIO', minute: '45', assistence: 'ANDRADE' },
+        { player: 'PERALTA', minute: '54' },
+        { player: 'ANDRADE', minute: '70', assistence: 'SCHRODER' },
+      ],
+    },
+    video: 'https://www.youtube.com/embed/hMsuZEOQT_8?si=PT4ZtXRYqWE6T-tw',
+    stats: {
+      home: {
+        goals: 0,
+        possession: 37,
+        kicks: 3,
+        expectedGoals: 0.8,
+        cornerKick: 1,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 3,
+        possession: 63,
+        kicks: 9,
+        expectedGoals: 2.9,
+        cornerKick: 7,
+        offSide: 1,
+        free: 1,
         penalty: 0,
         yellowCard: 0,
         redCard: 0,
