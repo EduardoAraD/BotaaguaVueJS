@@ -1,95 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { ASMonaco, Atalanta, AtleticoMadrid, Botaagua, Chelsea, LASK, ManchesterCity, Napoli, OlympiqueMarseille, PSG, Sevilla, StadeRennais, Tottenham } from "./clubs";
-
-// export const matchs: MatchCompleted[] = [
-//   {
-//     id: '1',
-//     home: StadeRennais,
-//     away: Botaagua,
-//     date: '10/03/2024 - 17:00',
-//     stadium: StadeRennais.stadium,
-//     championship: 'UEFA Champions League',
-//     season: 1,
-//     stage: 'Fase de Grupos',
-//     score: {
-//       goalsHome: [
-//         { player: 'PLEA', minute: 29, assistence: 'DOKU' },
-//       ],
-//       goalsAway: [
-//         { player: 'ANDERSSON', minute: 38 },
-//         { player: 'ANDERSSON', minute: 45 },
-//         { player: 'VEGA', minute: 83, assistence: 'AITOR' },
-//       ],
-//     },
-//     video: 'https://www.youtube.com/embed/SS0SWg8D6dg?si=zKSAQRSbhyZRrDuB',
-//     stats: {
-//       home: {
-//         possession: 0,
-//         kicks: 3,
-//         expectedGoals: 0,
-//         cornerKick: 2,
-//         offSide: 0,
-//         free: 0,
-//         penalty: 0,
-//         yellowCard: 1,
-//         redCard: 0,
-//       },
-//       away: {
-//         possession: 0,
-//         kicks: 6,
-//         expectedGoals: 0,
-//         cornerKick: 0,
-//         offSide: 1,
-//         free: 0,
-//         penalty: 0,
-//         yellowCard: 0,
-//         redCard: 0,
-//       }
-//     }
-//   },
-//   {
-//     id: '2',
-//     home: Botaagua,
-//     away: Tottenham,
-//     date: '11/03/2024 - 17:00',
-//     stadium: Botaagua.stadium,
-//     championship: 'UEFA Champions League',
-//     season: 1,
-//     stage: 'Fase de Grupos',
-//     score: {
-//       goalsHome: [],
-//       goalsAway: [
-//         { player: 'KANE', minute: 12, assistence: 'KEITA' },
-//         { player: 'KANE', minute: 70, isPenalty: true },
-//       ],
-//     },
-//     video: 'https://www.youtube.com/embed/cJqVsXWpvso?si=ORBxicpCb3R6t31X',
-//     stats: {
-//       home: {
-//         possession: 0,
-//         kicks: 2,
-//         expectedGoals: 0,
-//         cornerKick: 0,
-//         offSide: 0,
-//         free: 2,
-//         penalty: 0,
-//         yellowCard: 0,
-//         redCard: 0,
-//       },
-//       away: {
-//         possession: 0,
-//         kicks: 4,
-//         expectedGoals: 0,
-//         cornerKick: 0,
-//         offSide: 0,
-//         free: 2,
-//         penalty: 1,
-//         yellowCard: 0,
-//         redCard: 0,
-//       }
-//     }
-//   },
-// ]
+import { AmericaCali, AmericaMG, ASMonaco, Atalanta, AtleticoGO, AtleticoMadrid, Botaagua, BotaaguaAC, Chelsea, LASK, ManchesterCity, Napoli, Olimpia, OlympiqueMarseille, PSG, RiverPlateURU, Sevilla, StadeRennais, Tottenham } from "./clubs";
 
 export const matchsEuropa: MatchCompleted[] = [
   {
@@ -197,7 +107,7 @@ export const matchsEuropa: MatchCompleted[] = [
     score: {
       goalsHome: [
         { player: 'ÁLVAREZ', minute: '72' },
-        { player: 'AOUAR', minute: '90 + 5', assistence: 'LINDSTROM' },
+        { player: 'AOUAR', minute: '90+5', assistence: 'LINDSTROM' },
       ],
       goalsAway: [
         { player: 'INÁLCIO', minute: '11', assistence: 'AGUADO' },
@@ -432,11 +342,11 @@ export const matchsEuropa: MatchCompleted[] = [
     score: {
       goalsHome: [
         { player: 'HAALAND', minute: '38', assistence: 'GALLAGHER' },
-        { player: 'GORETZKA', minute: '105 + 2', assistence: 'RODRYGO' },
+        { player: 'GORETZKA', minute: '105+2', assistence: 'RODRYGO' },
       ],
       goalsAway: [
         { player: 'VEGA', minute: '27' },
-        { player: 'VEGA', minute: '120 + 2', assistence: 'DICKINSON' },
+        { player: 'VEGA', minute: '120+2', assistence: 'DICKINSON' },
       ],
       scorePenalts: {
         home: 5,
@@ -534,7 +444,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'ALONSO', minute: '59', assistence: 'INÁLCIO' },
         { player: 'SCHRODER', minute: '76', assistence: 'PERALTA' },
         { player: 'ALONSO', minute: '82', assistence: 'SCHRODER' },
-        { player: 'ALONSO', minute: '90 + 3', assistence: 'DICKINSON' },
+        { player: 'ALONSO', minute: '90+3', assistence: 'DICKINSON' },
       ],
       goalsAway: [],
     },
@@ -629,7 +539,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'ALONSO', minute: '69', assistence: 'ADAM' },
       ],
       goalsAway: [
-        { player: 'JAGIELLO', minute: '90 + 3', assistence: 'SABITZO' },
+        { player: 'JAGIELLO', minute: '90+3', assistence: 'SABITZO' },
       ],
     },
     video: 'https://www.youtube.com/embed/n05AZMLLS0s?si=eq3CK57SiAQS5Dw1',
@@ -766,14 +676,14 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: 'Oitavas de Final',
     score: {
       goalsHome: [
-        { player: 'ALONSO', minute: '45 + 1', assistence: 'INÁLCIO' },
+        { player: 'ALONSO', minute: '45+1', assistence: 'INÁLCIO' },
         { player: 'INÁLCIO', minute: '66' },
         { player: 'VEGA', minute: '78', assistence: 'DICKINSON' },
       ],
       goalsAway: [
         { player: 'RICHARLISON', minute: '17', assistence: 'MANU KONE' },
         { player: 'SZOBOSZLAI', minute: '54' },
-        { player: 'SZOBOSZLAI', minute: '90 + 4', assistence: 'MAZRADUI' },
+        { player: 'SZOBOSZLAI', minute: '90+4', assistence: 'MAZRADUI' },
       ],
     },
     video: 'https://www.youtube.com/embed/8lRCOcl8D_k?si=LnoJJ7BvhvMhU9ZL',
@@ -949,7 +859,7 @@ export const matchsEuropa: MatchCompleted[] = [
     stage: "Semi-final",
     score: {
       goalsHome: [
-        { player: 'ANDRADE', minute: '90 + 1', assistence: 'INÁLCIO' },
+        { player: 'ANDRADE', minute: '90+1', assistence: 'INÁLCIO' },
       ],
       goalsAway: [],
     },
@@ -1067,6 +977,474 @@ export const matchsEuropa: MatchCompleted[] = [
         cornerKick: 7,
         offSide: 1,
         free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '22',
+    home: BotaaguaAC,
+    away: AmericaMG,
+    date: '2024-05-07 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'CARRILLO', minute: '35', assistence: 'ADAM' },
+        { player: 'ADAM', minute: '53', isPenalty: true },
+        { player: 'TEIXEIRA', minute: '81', assistence: 'BARBOSA' },
+      ],
+      goalsAway: [
+        { player: 'BURNABÃO', minute: '7', assistence: 'SANCHA' },
+        { player: 'TEIXEIRA', minute: '19', assistence: 'SANCHA' },
+        { player: 'JUSTINHO', minute: '59' },
+        { player: 'BURNABÃO', minute: '88', assistence: 'MEDEIRÃO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 3,
+        possession: 49,
+        kicks: 7,
+        expectedGoals: 2.1,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 1,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 4,
+        possession: 51,
+        kicks: 5,
+        expectedGoals: 2.0,
+        cornerKick: 1,
+        offSide: 0,
+        free: 2,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 1,
+      }
+    }
+  },
+  {
+    id: '23',
+    home: AmericaCali,
+    away: BotaaguaAC,
+    date: '2024-05-08 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: AmericaCali.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'CORDESIA', minute: '29' },
+      ],
+      goalsAway: [
+        { player: 'WAAD', minute: '66', assistence: 'BRANCO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 57,
+        kicks: 11,
+        expectedGoals: 2.8,
+        cornerKick: 4,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 43,
+        kicks: 4,
+        expectedGoals: 0.8,
+        cornerKick: 0,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '24',
+    home: RiverPlateURU,
+    away: BotaaguaAC,
+    date: '2024-05-09 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: RiverPlateURU.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'DE LOS SANTOS', minute: '90+2', assistence: 'LAVEGA' },
+      ],
+      goalsAway: [
+        { player: 'ADAM', minute: '12', assistence: 'MCAULEY' },
+        { player: 'ADAM', minute: '39', assistence: 'MCAULEY' },
+        { player: 'ADAM', minute: '44', assistence: 'MCAULEY' },
+        { player: 'TEIXEIRA', minute: '59' },
+        { player: 'CARRILLO', minute: '68' },
+        { player: 'ADAM', minute: '72', assistence: 'CARRILLO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 44,
+        kicks: 2,
+        expectedGoals: 0.7,
+        cornerKick: 0,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 6,
+        possession: 56,
+        kicks: 9,
+        expectedGoals: 2.7,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '25',
+    home: BotaaguaAC,
+    away: AmericaCali,
+    date: '2024-05-10 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'CARRILLO', minute: '75', assistence: 'ADAM' },
+        { player: 'BRANCO', minute: '90+1', assistence: 'ADAM' },
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 2,
+        possession: 43,
+        kicks: 4,
+        expectedGoals: 1.5,
+        cornerKick: 0,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 57,
+        kicks: 6,
+        expectedGoals: 1.9,
+        cornerKick: 3,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '26',
+    home: BotaaguaAC,
+    away: RiverPlateURU,
+    date: '2024-05-11 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'ADAM', minute: '17', assistence: 'TEIXEIRA' },
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 45,
+        kicks: 3,
+        expectedGoals: 1.1,
+        cornerKick: 0,
+        offSide: 2,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 55,
+        kicks: 2,
+        expectedGoals: 0.5,
+        cornerKick: 1,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '27',
+    home: AmericaMG,
+    away: BotaaguaAC,
+    date: '2024-05-13 19:00:00',
+    publicationDate: '2024-05-06 12:00:00',
+    stadium: AmericaMG.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Fase de Grupos',
+    score: {
+      goalsHome: [
+        { player: 'SILVA', minute: '38' },
+      ],
+      goalsAway: [
+        { player: 'CASTRO', minute: '8', assistence: 'WAAD' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 58,
+        kicks: 12,
+        expectedGoals: 3.4,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 42,
+        kicks: 3,
+        expectedGoals: 1.2,
+        cornerKick: 0,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '28',
+    home: BotaaguaAC,
+    away: AtleticoGO,
+    date: '2024-05-15 19:00:00',
+    publicationDate: '2024-05-14 12:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Oitavas de Final',
+    score: {
+      goalsHome: [
+        { player: 'BRANCO', minute: '73' },
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 53,
+        kicks: 3,
+        expectedGoals: 1.1,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 47,
+        kicks: 5,
+        expectedGoals: 1.5,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+    }
+  },
+  {
+    id: '29',
+    home: AtleticoGO,
+    away: BotaaguaAC,
+    date: '2024-05-16 19:00:00',
+    publicationDate: '2024-05-14 12:00:00',
+    stadium: AtleticoGO.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Oitavas de Final',
+    score: {
+      goalsHome: [
+        { minute: '45', player: 'PARRELA', assistence: 'ZEZÉ' },
+        { minute: '63', player: 'ZEZÉ', assistence: 'SILVEIRO' },
+      ],
+      goalsAway: [
+        { minute: '6', player: 'ADAM', assistence: 'CASTRO' },
+        { minute: '15', player: 'BARBOSA', assistence: 'ADAM' },
+        { minute: '26', player: 'ADAM', assistence: 'CARRILLO' },
+        { minute: '50', player: 'CASTRO', assistence: 'BARBOSA' },
+        { minute: '50', player: 'BRANCO', assistence: 'CASTRO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 2,
+        possession: 48,
+        kicks: 6,
+        expectedGoals: 1.6,
+        cornerKick: 3,
+        offSide: 1,
+        free: 1,
+        penalty: 0,
+        yellowCard: 1,
+        redCard: 0,
+      },
+      away: {
+        goals: 5,
+        possession: 52,
+        kicks: 5,
+        expectedGoals: 2.4,
+        cornerKick: 0,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '30',
+    home: Olimpia,
+    away: BotaaguaAC,
+    date: '2024-05-17 19:00:00',
+    publicationDate: '2024-05-16 20:00:00',
+    stadium: Olimpia.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Quartas de Final',
+    score: {
+      goalsHome: [
+        { minute: '70', player: 'QUINTANA', assistence: 'SALCEDO' }
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 1,
+        possession: 55,
+        kicks: 7,
+        expectedGoals: 2.5,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 45,
+        kicks: 3,
+        expectedGoals: 0.5,
+        cornerKick: 0,
+        offSide: 0,
+        free: 2,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '31',
+    home: BotaaguaAC,
+    away: Olimpia,
+    date: '2024-05-18 19:00:00',
+    publicationDate: '2024-05-16 20:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Quartas de Final',
+    score: {
+      goalsHome: [
+        { minute: '21', player: 'CARRILLO', assistence: 'NIETO' },
+        { minute: '56', player: 'ADAM', assistence: 'CARRILLO' },
+        { minute: '90+4', player: 'ADAM' },
+      ],
+      goalsAway: [],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 3,
+        possession: 52,
+        kicks: 6,
+        expectedGoals: 3.2,
+        cornerKick: 2,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 0,
+        possession: 48,
+        kicks: 4,
+        expectedGoals: 0.7,
+        cornerKick: 1,
+        offSide: 0,
+        free: 0,
         penalty: 0,
         yellowCard: 0,
         redCard: 0,
