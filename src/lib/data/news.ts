@@ -836,13 +836,9 @@ export const news: News[] = [
         type: 'paragraph',
         value: [
           `
-          O segundo tempo começou com o Atlético de Madrid no ataque e numa bola disputava na defesa do Botaagua, aos 54 minutos,
-          a bola sobrou para SZOBOSZLAI na cara do gol para chutar e fazer o gol, Atlético 2 a 1. Com isso, o Botaagua foi
-          para cima, e em um contra-ataque, aos 66 minutos, INÁLCIO empatou na saída do goleiro. Botaagua ainda martelava em
-          busca da virada até que aos 77 minutos, VEGA recebe um passe de DICKINSON e vira o jogo para a alegria da torcida.
-          O Botaagua estava na frente pela primeira vez na partida, 3 a 2. Faltando pouco tempo para acabar, o Botaagua recuou
-          e partiu para os contra-ataques, mas aos 90 + 4, no cruzamento de MAZRADUI, SZOBOSZLAI empatou de cabeça, praticamente
-          no ultimo lance da partida. Final, Botaagua 3x3 Atlético de Madrid.
+          Com o empate, o Botaagua precisa dá vitória para se classificar contra o Atlético que ainda não perdeu em casa.
+          Seu ultimo jogo foi uma derrota por 4 a 1. Será que agora dá? O jogo vai ser realizado no dia 30 de maio as
+          19hrs no Youtube.
           `
         ]
       },
@@ -899,8 +895,12 @@ export const news: News[] = [
         value: ['Os resultados e confrontos para as quartas.']
       },
       {
-        type: 'img',
-        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/16_oitavas_1.jpeg?raw=true']
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/16_oitavas_2.jpg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/16_oitavas_3.jpg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/16_oitavas_1.jpeg?raw=true',
+        ]
       },
       {
         type: 'paragraph',
@@ -1255,6 +1255,651 @@ export const news: News[] = [
           É o segundo título internacional do clube e o primeiro nessa competição. Com o título garantido, o Botaagua
           vai disputar, no ínicio da proxima temporada, a UEFA Super Cup com o vencedor da UEFA Europa League.
           Em breve teremos mais informações sobre a data e hora do jogo.
+        `]
+      }
+    ],
+  },
+  {
+    id: '24',
+    publicationDate: '2024-05-06 12:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_0_0.jpeg?raw=true',
+    title: 'Botaagua Atlético Clube na Argentina!',
+    titlePageLink: 'Botaagua na Argentina',
+    subtitle: 'Teremos novas competições com um novo início, agora na América do Sul.',
+    descriptions: [
+      {
+        type: 'paragraph',
+        value: [`
+        Teremos novas competições no calendário do Botaagua FC, agora como Botaagua Atlético Clube na Argentina. As novas
+        competições são a CONMEBOL Sulamericana, CONMEBOL Libertadores e CONMEBOL Recopa. As outras competições ainda
+        continuaram, mas agora dividindo espaço com essa.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['CONMEBOL Sudamericana é a primeira competição.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_0_0.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          O Botaagua vai inícia a Sudamericana no dia 07 de maio, e vamos ter transmissões ao vivo aqui ou no Youtube. O primeiro jogo
+          vai ser contra o América-MG que promete ser um bom jogo. Em seu grupo ainda temos o América de Cali e o River Plate de Montevideu.
+        `]
+      },
+    ],
+  },
+  {
+    id: '25',
+    idMatch: '22',
+    publicationDate: '2024-05-07 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_1_0.jpeg?raw=true',
+    title: 'Botaagua perde em casa na estreia.',
+    titlePageLink: 'Botaagua x América MG',
+    subtitle: 'Em um jogo cheio de gols, Botaagua toma o gol nos momento finais e perde a partida de estreia na Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Começou desligado do jogo']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou com o Botaagua tocando a bola, mas a primeira grande chance foi dos visitantes, e que chance,
+          logo aos 7 minutos BURNABÃO aceitou um chutasso na gaveta para fazer 1 a 0. O Botaagua buscava o ataque, mas
+          viu os visitantes partirem pro contra-ataque e em um escanteio TEIXEIRA ffaz 2 a 0 para o América-MG. O time
+          da casa só teve sua primeira chance aos 22 minutos, mas foi aos 34 que CARRILLO descontou e fazia o Botaagua
+          voltar para a partida.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Derrota amarga']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          No começo do segundo tempo, o Botaagua veio com mais gosto do jogo e aos 51 minutos, em uma bola rápida, o goleiro
+          fez penalti em ADAM, e ele mesmo bateu para empatar o jogo. Porém, logo depois, o América-MG faz um cruzamento na
+          ponta para JUSTINHO fazer o terceiro, e o Botaagua volta a estar atrás no placar. O time da casa foi pra cima e em
+          outra bola rápida, TEIXEIRA do América faz falta e é expulso. E nessa falta BARBOSA acerta o travessão. Mas aos 81 minutos, em
+          um escanteio TEIXEIRA se antecipa a defesa e empata de cabeça. O Botaagua partiu para a virada nos minutos finais,
+          mais foi o América que no minuto 88, em uma troca de passes, BURNABÃO fez o segundo dele e o quarto dos visitantes.
+          E com o apito do juiz, sacramentar a derrota, Botaagua 3x4 América-MG.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['E como ficou o grupo?']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_1_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com o derrota, o Botaagua está zerado em último ao lado do River Plate do Uruguai, e os lideres são o América-MG
+        e o América de Cali. Esse América que venceu o River por 1 a 0. Os próximos confrontos, o Botaagua encara o América
+        de Cali na Colômbia e o América-MG volta para o Brasil encarar o River do Uruguai. Os confrontos serão no dia 08
+        ás 19hrs.
+        `]
+      }
+    ],
+  },
+  {
+    id: '26',
+    idMatch: '23',
+    publicationDate: '2024-05-08 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_2_0.jpeg?raw=true',
+    title: 'Botaagua empata fora e ganha seu primeiro ponto na competição.',
+    titlePageLink: 'América de Cali x Botaagua',
+    subtitle: 'Em um jogo brigado, Botaagua empata contra o América de Cali por 1 a 1 e amarga a lanterna do grupo.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Domínio do América de Cali']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Jogando em casa o América de Cali someçou indo pra cima e aos 5 minutos CORDESIA acerta a trave e em seguinda
+          PENENA fez que o goleiro do Botaagua fizesse um milagre na cabeçada. O Botaagua teve seu primeiro chute aos 16
+          minutos. Aos 19, BRANCO foi lançado e chutou, mas PERADEZES saiu rápido para fechar o angulo do chute. Com o América
+          melhor na partida, aos 28 minutos CORDESIA passou pela defesa e chutou no canto, a bola bateu na trave e entrou,
+          América de Cali abria o placar. O time da casa e mentia a pressão e aos 43 minutos o goleiro fez mais uma defesaça
+          em outro chute no canto.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Derrota amarga']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O Botaagua foi pra cima em segundo tempo, porem não conseguia passar pela defesa do América. Aos 61 minutos, RIBEIRO fez
+          uma defesa e no contra-ataque, WAAD foi lançado e chutou no canto para superar o goleiro do time da casa, o Botaagua chegava
+          ao empate. Depois disso o jogo ficou muito brigado no meio campo e nos minutos finais, o América foi pra cima e aos 84
+          RIBEIRO fez uma bela defesa. O América mantinha a pressão e aos 89 minutos ALBARADO acertou a trave e a defesa afastou
+          depois. Final, América de Cali 1, Botaagua 1.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua lanterna do grupo.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_2_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com o empate e a vitória do River pra cima do América-MG, o Botaagua é o lanterna do grupo com apenas 1 ponto ganho em duas
+        partidas. Seu proximo compromisso vai ser fora de casa contra o River Plate do Uruguai, precisa da vitória para continuar
+        a ter chances para se classificar as Oitavas de Final da CONMEBOL Sudamericana.
+        `]
+      }
+    ],
+  },
+  {
+    id: '27',
+    idMatch: '24',
+    publicationDate: '2024-05-09 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_3_0.jpeg?raw=true',
+    title: 'Botaagua goleia fora de casa e volta a sonhar com a Oitavas',
+    titlePageLink: 'River Plate-URU x Botaagua',
+    subtitle: 'Em um jogo totalmente unilateral, o Botaagua goleia por 6 a 1 o River do Uruguai e volta a sonhar com a classificação a próxima fase.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Passeio dos visitantes']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou com os dois times diputando a bola, mas no vacilo do River, o ADAM recebeu livre e chutou na saída do goleiro,
+          o Botaagua abria o placar. O River buscava o ataque nas não passava pela a defesa, o time visitante se aproveitava e nas
+          falhas, atacava e aos 38 minutos, ADAM recebeu o passe de MCAULEY e chutou no canto para  ampliar o placar. No momento seguinte,
+          a mesma dupla, fez a mesma jogada e fez o terceiro gol dos visitantes. O River estava perdido em campo.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória com sobras']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Mesmo vencendo por 3 a 0, o Botaagua não se acomodou, além de dominar, aos 58 minutos TEIXEIRA fez mais um, Botaagua 4 a 0.
+          Aos 67 minutos, WAAD recebeu uma falta perto na grande área, na cobrança, CARRILLO fez uma pintura, um golaço, na gaveta. O
+          Botaagua chegava ao quinto gol. No lance seguinte, ADAM recebeu um recebeu um passe em profundidade e chutou no cantinho, 
+          era o sexto gol do Botaagua. Já o River, tentou e nos minutos finais, o time chegou ao gol de honra, aos 90+2 LOS SANTOS
+          descontou mas a partida já tinha dono. River Plate do Uruguai 1, Botaagua 6.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua é o segundo do grupo.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_3_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com a vitória, o Botaagua assumiu a segunda colocação com 4 pontos, o líder é o América de Cali que empatou por 1 a 1
+        contra o América-MG com 5 pontos. O grupo está muito igual, e os proximos confrontos o Botaagua em casa contra o líder
+        do grupo, América de Cali e o River recebe o América MG para voltar a zona de classificação.
+        `]
+      }
+    ],
+  },
+  {
+    id: '28',
+    idMatch: '25',
+    publicationDate: '2024-05-10 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_4_0.jpeg?raw=true',
+    title: 'Botaagua garante a vitória nos minutos finais e está cada vez mais perto das oitavas.',
+    titlePageLink: 'Botaagua x América de Cali',
+    subtitle: 'Botaagua vence por 2 a 0 nos minutos finais e está a liderança do grupo precisando de apenas uma vitória de se classificar para as oitavas.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Placar zerado']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou com o Botaagua indo pra cima, o América de Cali começou a gostar do jogo, mas ambas as defesas
+          estavam muito bem na partida. A primeira chance foi no América de Cali aos 35 minutos, em que o goleiro do time
+          da casa fez uma bela defesa. O Botaagua buscava o contra-ataque, mas não conseguia acerta os passes decisivos.
+          E em um jogo de poucas oportunidades, o primeiro tempo terminou sem gols.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória apertada']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O segundo tempo começou com o América de Cali perdendo uma chance incrível de gol com PENENA, mas RIBEIRO fez um verdadeiro
+          milagre. No lance seguinte RIBEIRO fazia mais uma defesa importante e mantia o 0 a 0 no placar. Aos 61 minutos, RIBEIRO
+          agarrou mais uma e o Botaagua não conseguia contra-atacar, o gol dos visitantes. Mas aos 73 minutos, o Botaagua achou um
+          contra-ataque e CARRILLO abriu o placar, o gol importantíssimo pelas condições do jogo. O América buscava o gol de empate 
+          nos minutos finais, mas em outro contra-ataque mortal, BRANCO invadiu a grande área e fez aos 90 + 1 minutos para decretar
+          a vitória do Botaagua. Final, Botaagua 2, América de Cali 0.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua é o novo líder.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_4_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com a vitória, o Botaagua assumiu a liderança do grupo com 7 pontos, o mesmo número de pontos que o segundo, o América-MG
+        que venceu por 1 a 0 o River. O Botaagua pode se classificar na proxima rodada se vencer o River em casa e América de Cali
+        não vencer o América-MG, nessas condições, o Botaagua se classifica para a próxima fase, se não ocorrer, vai decidir tudo na
+        última rodada contra o América-MG.
+        `]
+      }
+    ],
+  },
+  {
+    id: '29',
+    idMatch: '26',
+    publicationDate: '2024-05-11 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_5_0.jpeg?raw=true',
+    title: 'Botaagua vence por 1 a 0 e está classificado para a próxima fase.',
+    titlePageLink: 'Botaagua x River Plate-URU',
+    subtitle: 'Com o gol de ADAM, o Botaagua vence o River e está classificado para a próxima fase da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua na vantagem']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou brigado no meio campo, o River começou melhor e teve sua chance aos 13 minutos, mas em um
+          contra-ataque, o ADAM foi lançado e chutou na saída do goleiro. O Botaagua abria o placar aos 17 minutos,
+          era o começo dos sonhos. O Botaagua mantinha a posse mais não criava chance reais de gol. O River começava
+          a gostar do jogo e aos 37 minutos RIBEIRO fez uma bela defesa. E com o final do primeiro tempo, o Botaagua
+          se mantinha tranquilo com o resultado.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória com a vantagem mínima']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O segundo tempo começou com o Botaagua no domínio da bola, o River tentava algumas investidas, mas o time
+          não passava pela defesa. Aos 63 minutos, ADAM teve outra grande chance, mais o goleiro defendeu. Para o Botaagua,
+          só restava defender e contra-atacar, e o River com a bola buscava o ataque a todo instante mas sem levar perigo.
+          E o jogo se manteve assim até o final, o Botaagua vence por 1 a 0 e se garante na próxima fase.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua está classificado para a próxima fase.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_5_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Após três vitórias seguidas, o Botaagua está classificado para a próxima fase da compatição, no outro jogo, os Américas
+        empataram por 1 a 1. O time só precisa de um empate para garantir o primeiro lugar. Seu proximo confronto vai ser
+        contra o América-MG no Brasil e o América de Cali enfrenta em casa o River precisando vencer. O jogo do Botaagua vai
+        acontecer no dia 14 as 19hrs pelo site ou pelo Youtube.
+        `]
+      }
+    ],
+  },
+  {
+    id: '30',
+    idMatch: '27',
+    publicationDate: '2024-05-13 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_6_0.jpeg?raw=true',
+    title: 'Botaagua e América-MG empatam e ambos estão na próxima fase.',
+    titlePageLink: 'América-MG x Botaagua',
+    subtitle: 'Botaagua e América empatam por 1 a 1 em jogo movimentado e ambos estão classificados para a próxima fase da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Jogo igualado']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          O jogo começou com o Botaagua eletríco e logo aos 7 minutos, CASTRO recebe o passe de WAAD e chutou no canto
+          para marcar 1 a 0 para os visitantes. O América não se intimidou e aos 13 minutos, TRIGUINHO recebeu livre e 
+          chutou para a defesa de RIBEIRO. Aos 30 minutos, mas uma chance do América com TRIGUINHO, mas RIBEIRO defende
+          denovo. Porém, aos 37 minutos, depois de muita pressão do América, SILVA aproveitou o rebote de RIBEIRO para
+          empatar a partida, 1 a 1. 
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['O empate com gosto de vitória.']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Com o começo do segundo tempo, os dois times buscavam o ataque e aos 55 minutos ADAM recebeu livre e chutou tirando
+          do goleiro, mas tirou demais e perdeu o gol. Aos 61 minutos, ADAM recebeu um passe em profundidade, avançou livre
+          e chutou tirando do goleiro e mais uma vez perdeu o gol. Aos 73 minutos, o América chegou com ímpeto e numa cabeçada
+          de TRIGUINHO, o RIBEIRO fez um milagre para a alegria da torcida visitante. O jogo continuou brigado no meio campo,
+          sem muitas chances para ambos os lados até que aos 89 o América chegou perto do gol no bate rebate dentro da aréa do
+          Botaagua, mas a defesa afastou e com o apito do juiz, o Botaagua se classificou em primeiro do grupo.
+          `
+        ]
+      },
+      {
+        type: 'heading',
+        value: ['Botaagua está classificado em primeiro lugar.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_fg_6_1.jpeg?raw=true'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com o empate, o Botaagua passou em primeiro lugar com 11 pontos, o segundo foi o América-MG com 9 pontos e os eliminados
+        da competiçao são o América de Cali e o River Plater do Uruguai com 7 e 4 pontos respectivamente. O Botaagua já está nas
+        oitavas de final e o América vai disputar uma fase eliminatória contra o time que terminou em terceiro lugar na Libertadores.
+        Em breve teremos mais novidades sobre os confrontos das Oitavas de final da CONMEBOL Sudamericana.
+        `]
+      }
+    ],
+  },
+  {
+    id: '31',
+    publicationDate: '2024-05-14 12:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_0.jpeg',
+    title: 'Botaagua vai enfrentar o Atlético-GO nas oitavas.',
+    titlePageLink: 'Sorteio definido',
+    subtitle: 'Com as eliminatórias decididas, o Botaagua vai enfrentar o Atlético-GO nas oitavas de final da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Os Jogos da eliminatória e sorteio']
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `
+          Com os jogos definidos, o Botaagua vai enfrentar o Atlético Goianiense, o time que veio no terceiro lugar na fase de grupos
+          da libertadores. Os times são igualitários, mas com um pouco de favoritismo para o Atlético. Os jogos seram realizados
+          dia 15 de maio as 19hrs, você pode assistir ao vivo aqui no site ou no Youtube.
+          `
+        ]
+      },
+    ],
+  },
+  {
+    id: '31',
+    idMatch: '28',
+    publicationDate: '2024-05-15 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg',
+    title: 'Botaagua vence o primeiro confronto e tem a vantagem para o jogo da volta.',
+    titlePageLink: 'Botaagua x Atlético-GO',
+    subtitle: 'Com o gol de BRANCO, o Botaagua vence e o Atlético-GO e está a um empate de se classificar para as quartas de final da Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Primeiro tempo morno.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O jogo começou disputado, as duas equipes trocavam bem os passes, mas a defesa era superior e não conseguiam desenrolar
+        um ataque. O jogo ficou no meio campo por bastante tempo e parecia chato de assistir. Os desames precisos eram uma
+        barreira forte para os ataques. O primeiro chute do jogo foi do Atlético aos 44 minutos em que o goleiro do Botaagua
+        defendeu e no lance seguinte, em escanteio, o PARRELA cabeciou e COSTA tirou em cima da linha e a zaga afastou no fim.
+        Esse foi o lance mais perigoso do jogo.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória importante']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua começou melhor no segundo tempo, logo aos 49 ADAM chutou e a bola desviou na defesa entes de sair. Aos 59
+        JUNIOR do Atlético chutou para RIBEIRO defender. O jogo estava bem melhor do que no primeiro tempo. E em um contra-ataque,
+        ADAM lançou BRANCO que avançou até a grande área e chutou na saída do goleiro, marcando um gol importantíssimo para o
+        Botaagua. O Atlético se lançou ao ataque e aos 78 minutos, PEIXE recebeu a bola na cara do gol e RIBEIRO fez um milagre
+        para manter o 1 a 0 no placar. O atlético permanecia no ataque nas a defesa do Botaagua se mantia bem e com o apito do
+        juiz, o time da casa tem a vantagem de 1 gol para o jogo de volta.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Enquanto isso, nos outros jogos.']
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_2.jpeg',
+        ]
+      }
+    ],
+  },
+  {
+    id: '32',
+    idMatch: '29',
+    publicationDate: '2024-05-16 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg',
+    title: 'Botaagua goleia e está nas quartas de final.',
+    titlePageLink: 'Atlético-GO x Botaagua',
+    subtitle: 'Botaagua encanta e goleia por 5 a 2 o Atlético-GO e está na quartas de final da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Começo avassalador.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua começou o jogo com a posse de bola e no primeiro ataque, aos 6 minutos, em bela troca de passes,
+        ADAM chutou no canto para abrir o placar, Botaagua 1 a 0. O Atlético estava apatico, o Botaagua comandava a
+        partida e aos 14 minutos, ADAM cruzou para BARBOSA fazer de peixeinho, 2 a 0 em 15 minutos de jogo. Aos 21
+        minutos, o Atlético chegou pela primeira vez e fez o gol, mas estava em impedimento. O Botaagua respondeu rápido
+        e ADAM invadiu a grande área e chutou na gaveta, era o terceiro gol aos 26 minutos. Perto de acabar o primeiro
+        tempo o Atlético foi pra cima, teve duas chances aos 31 e 38 minutos com SILVEIRO, mas RIBEIRO defendeu as duas.
+        Porém, aos 44 minutos, em cobrança de escanteio, PARRELA subiu mais alto que a defesa e descontou, o primeiro
+        do time brasileiro.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória impressionante.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou com o Botaagua marcando o quarto gol com CASTRO, em um toque primoroso de BARBOSA. O Botaagua
+        continuava se aproveitando dos contra-ataques que o Atlético deixava, mas em uma bela troca de passes do time da casa,
+        ZEZÉ fez o segundo gol, o gol que dava uma miníma esperança ao clube. Mesmo se defendendo, o Botaagua não perdeu o
+        controle da partida e aos 68 minutos, CASTRO cruzou e BRANCO cabeciou pro fundo do gol. Era o quinto do Botaagua já
+        com a classificação para as quartas de final definida. E com o apito final, o Botaagua está nas quartas de final.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Festa para os classificados.']
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_2.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_3.jpeg',
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        Com a classificação para as quartas de final, o Botaagua vai enfrentar o Olimpia que passou pelo Colo-Colo nos
+        penaltis por 5 a 4 depois de empatar no agregado por 2 a 2. O primeiro jogo vai ser na no Paraguai no dia 17 de
+        maio e o jogo de volta na Argentina no dia 18, ambos os jogoas as 19hrs e você ver aqui no site ou no Youtube.
+        `]
+      }
+    ],
+  },
+  {
+    id: '33',
+    idMatch: '30',
+    publicationDate: '2024-05-17 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg',
+    title: 'Botaagua perde e precisa vencer em casa.',
+    titlePageLink: 'Olimpia x Botaagua',
+    subtitle: 'Botaagua toma o gol no segundo tempo e precisa vencer em casa para chegar a semi-final.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Sem emoções.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O primeiro tempo começou com o Olimpia iniciando os ataques, a defesa do Botaagua estava bem postava e ameaçava
+        nos contra-ataques. o jogo ficava muito brigado no meio-campo e sem grandes chances de ambos os lados. O Olimpia
+        mandava na partida, o Botaagua não ofericia perigos. E sem chances reais de gol, o primeiro tempo terminou sem
+        gols.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória impressionante.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou com o Olimpia no ataque, o primeiro chute aos 51 minutos, mas foi pra fora. O jogo
+        se emcaminhava a ficar igual ao primeiro, aonde as defesa se saíram melhor que o ataque. Aos 66 minutos, PAIVA
+        chutou na cara do gol e RIBEIRO fez um milagre para defender. Porém no lance seguinte, SALCEDO tocou para QUINTANA
+        que encheu o pé de fora da área e marcou um golaço, 1 a 0 Olimpia. A partir daí, o Botaagua foi pra cima, e ADAM
+        teve duas chances na cara do gol aos 74 e 85 e em ambas chutou para fora. E com o final da partida, o Olimpia
+        saia na frente nas quartas de final.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Enquanto nos outros jogos.']
+      },
+      {
+        type: 'img',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_1.jpeg',
+        ]
+      },
+    ],
+  },
+  {
+    id: '34',
+    idMatch: '31',
+    publicationDate: '2024-05-18 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg',
+    title: 'Botaagua vence por 3 a 0 e está na semi-final.',
+    titlePageLink: 'Botaagua x Olimpia',
+    subtitle: 'Com gols de ADAM e CARRILLO, Botaagua vence por 3 a 0 o Olimpia e está na semi-final da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua tirou a vantagem do Olimpia.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua, jogando em casa, começou com tudo, e aos 7 minutos já teve a primeira chance. Porém, foi aos 20 minutos
+        que NIETO lançou CARRILLO que abriu o placar, 1 a 0 Botaagua. Com a desvantagem no placar, o Olimpia foi pra frente,
+        mas a defesa do time da casa estava bem postada, e o Botaagua conseguia mais finalizações e aos 43 minutos, MCAULEY
+        faz jogada e chute para a defesa do goleiro do Olimpia.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória impressionante.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou como terminou o primeiro e aos 55 minutos, em um bate rebate na area do Olimpia, a bola
+        sobrou com ADAM que chutou para o fundo das redes, o Botaagua fazia 2 a 0 e estava a um passo das semis. Agora sendo
+        eliminado o Olimpia partiu para o ataque e o Botaagua se defendia e contra-atacava. Aos 73 minutos, CASTRO chutou para
+        os fundos das redes, mas o juiz marcou impedimento no lance. Aos 77 minutos, o RIBEIRO fazia sua primeira defesa
+        importante. E nos acrécimos RIBEIRO lança a bola para frente, ADAM briga e ganha a bola de dois marcadores e avançou
+        e chutou no canto do goleiro para marcar o terceiro e selar a vaga na Semi-final. Final, Botaagua 3, Olimpia 0.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Estamos na semi-final'],
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_2.jpeg',
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua está na semi-final da CONMEBOL Sudamericana e seu adversário vai ser o Universidad Católica que passou
+        pela LDU venceu os dois jogos e com o placar agregado de 5 a 1. o primeiro jogo vai ser dia 20 no Estádio Presidente
+        G.Lopes e a volta vai ser no Chile no dia 21, ambos os jogos as 19hrs.
         `]
       }
     ],
