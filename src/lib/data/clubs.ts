@@ -6,6 +6,12 @@ export const Botaagua: Club = {
   shortName: 'BTA',
   stadium: 'Arena Pabussú'
 }
+export const BotaaguaAC: Club = {
+  name: 'Botaagua AC',
+  logo: 'https://github.com/EduardoAraD/assets/blob/main/league/logos/botaagua.png?raw=true',
+  shortName: 'BTA',
+  stadium: 'Estádio Presidente G.Lopes'
+}
 
 export const StadeRennais: Club = {
   name: 'Stade Rennais FC',
@@ -89,4 +95,46 @@ export const PSG: Club = {
   logo: 'https://www.psg.fr/media/2874/psg_logo_seul_volume_rvb.png',
   shortName: 'PSG',
   stadium: 'Parc des Princes',
+}
+
+export const AmericaMG: Club = {
+  name: 'América MG',
+  logo: 'https://github.com/EduardoAraD/assets/blob/main/league/logos/america_mg.png?raw=true',
+  shortName: 'AMG',
+  stadium: 'Estádio El Médio',
+}
+
+export const AmericaCali: Club = {
+  name: 'América de Cali',
+  logo: 'https://www.americadecali.co/wp-content/uploads/2019/06/logo-googlee-128x128.png',
+  shortName: 'AME',
+  stadium: 'O Dromo',
+}
+
+export const RiverPlateURU: Club = {
+  name: 'River Plate-URU',
+  logo: 'https://cariverplate.uy/wp-content/uploads/2019/03/River-Plate-128x128.png',
+  shortName: 'CAR',
+  stadium: 'Arena Del Centenário',
+}
+
+export const AtleticoGO: Club = {
+  name: 'Atlético-GO',
+  logo: 'https://github.com/EduardoAraD/assets/blob/main/league/logos/atletico_go.png?raw=true',
+  shortName: 'ACG',
+  stadium: "Arena D'Oro",
+}
+
+export const Olimpia: Club = {
+  name: 'Olimpia',
+  logo: 'https://olimpianft.com/include/stores/695/images/Club_Olimpia.png',
+  shortName: 'OLI',
+  stadium: "Arena D'Oro",
+}
+
+export const UniversidadCatolica: Club = {
+  name: 'Universidad Católica',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LogoCDUC.png/800px-LogoCDUC.png',
+  shortName: 'CAT',
+  stadium: '',
 }
