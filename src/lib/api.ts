@@ -12,6 +12,10 @@ export function getListMatch(): Match[] {
     const publicationDate = new Date(match.publicationDate).getTime();
     
     return dateNow > publicationDate;
+  }).sort((matchA, matchB) => {
+    const timeA = new Date(matchA.publicationDate).getTime()
+    const timeB = new Date(matchB.publicationDate).getTime()
+    return timeA < timeB ? 1 : -1
   })
 }
 
