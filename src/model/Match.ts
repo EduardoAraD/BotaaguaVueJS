@@ -3,6 +3,13 @@ import { FaseMatch } from "./FaseMatch";
 import { ScoreMatch } from "./Score";
 import { emptyStats, type StatsMatch } from "./StatsMatch";
 
+type ChampionshipType =
+  'UEFA Champions League' |
+  'UEFA Europa League' |
+  'UEFA Super Cup' |
+  'CONMEBOL Libertadores' |
+  'CONMEBOL Sudamericana';
+
 export interface Match {
   id: string
   home: Club;
@@ -10,7 +17,7 @@ export interface Match {
   date: string;
   publicationDate: string;
   stadium: string;
-  championship: 'UEFA Champions League' | 'UEFA Europa League' | 'UEFA Super Cup';
+  championship: ChampionshipType;
   stage: FaseMatch;
   season: number;
   score: ScoreMatch

@@ -84,7 +84,7 @@ export const Chelsea: Club = {
 }
 
 export const Napoli: Club = {
-  name: 'Atlético de Madrid',
+  name: 'Napoli FC',
   logo: 'https://cdn.sscnapoli.it/wp-content/uploads/2022/08/loghi_400x400_0007_napoli.png',
   shortName: 'NAP',
   stadium: 'Stadion Olympik',
@@ -98,7 +98,7 @@ export const PSG: Club = {
 }
 
 export const AmericaMG: Club = {
-  name: 'América MG',
+  name: 'América-MG',
   logo: 'https://github.com/EduardoAraD/assets/blob/main/league/logos/america_mg.png?raw=true',
   shortName: 'AMG',
   stadium: 'Estádio El Médio',
