@@ -198,7 +198,7 @@ export const matchsEuropa: MatchCompleted[] = [
     stadium: Botaagua.stadium,
     championship: 'UEFA Europa League',
     season: 1,
-    stage: 'Semi-final',
+    stage: 'Semifinal',
     score: {
       goalsHome: [
         { player: 'ANDRADE', minute: '40', assistence: 'PERALTA' },
@@ -246,7 +246,7 @@ export const matchsEuropa: MatchCompleted[] = [
     stadium: OlympiqueMarseille.stadium,
     championship: 'UEFA Europa League',
     season: 1,
-    stage: 'Semi-final',
+    stage: 'Semifinal',
     score: {
       goalsHome: [
         { player: 'MAXI GÓMEZ', minute: '40', assistence: 'VERETOUT' },
@@ -856,7 +856,7 @@ export const matchsEuropa: MatchCompleted[] = [
     stadium: Botaagua.stadium,
     championship: 'UEFA Champions League',
     season: 2,
-    stage: "Semi-final",
+    stage: "Semifinal",
     score: {
       goalsHome: [
         { player: 'ANDRADE', minute: '90+1', assistence: 'INÁLCIO' },
@@ -900,7 +900,7 @@ export const matchsEuropa: MatchCompleted[] = [
     stadium: Napoli.stadium,
     championship: 'UEFA Champions League',
     season: 2,
-    stage: "Semi-final",
+    stage: "Semifinal",
     score: {
       goalsHome: [
         { player: 'ZIELINSKI', minute: '65', assistence: 'KVARATSKHELIA' },
@@ -943,7 +943,7 @@ export const matchsEuropa: MatchCompleted[] = [
     away: Botaagua,
     date: '2024-05-05 19:00:00',
     publicationDate: '2024-05-04 20:00:00',
-    stadium: '',
+    stadium: 'Estádio do Sport Lisboa e Benfica',
     championship: 'UEFA Champions League',
     season: 2,
     stage: 'Final',

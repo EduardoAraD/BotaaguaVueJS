@@ -6,13 +6,17 @@ import { News } from "../model/News";
 import { players } from "./data/players";
 import { Player, positionDefenders, positionMidfielders, positionForwads } from "../model/Player";
 
-export function getListMatch(): Match[] {
+function getMatchsPublisheds(): Match[] {
   const dateNow = Date.now();
   return matchsEuropa.filter(match => {
     const publicationDate = new Date(match.publicationDate).getTime();
     
     return dateNow > publicationDate;
-  }).sort((matchA, matchB) => {
+  })
+}
+
+export function getListMatch(): Match[] {
+  return getMatchsPublisheds().sort((matchA, matchB) => {
     const timeA = new Date(matchA.publicationDate).getTime()
     const timeB = new Date(matchB.publicationDate).getTime()
     return timeA < timeB ? 1 : -1
@@ -24,7 +28,7 @@ export function getMatchById(idMatch: string): MatchCompleted | undefined {
 }
 
 export function getNextMatch() {
-  const matchsPublishes = getListMatch();
+  const matchsPublishes = getMatchsPublisheds();
   const findMatch = matchsPublishes.find(match => {
     const status = getStatusMatchByDateHour(match.date);
     return status !== 'finished';

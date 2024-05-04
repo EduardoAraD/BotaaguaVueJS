@@ -3,5 +3,5 @@ export type FaseMatch =
   'Fase de Grupos' |
   'Oitavas de Final' |
   'Quartas de Final' |
-  'Semi-final' |
+  'Semifinal' |
   'Final';
