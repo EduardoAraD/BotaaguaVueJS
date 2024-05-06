@@ -132,9 +132,18 @@ export const Olimpia: Club = {
   stadium: "Arena D'Oro",
 }
 
+
 export const UniversidadCatolica: Club = {
   name: 'Universidad Católica',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LogoCDUC.png/800px-LogoCDUC.png',
   shortName: 'CAT',
+  stadium: "Arena D'Oro",
+}
+
+export const Libertad: Club = {
+  name: 'Libertad',
+  logo: 'https://upload.wikimedia.org/wikipedia/pt/e/e6/17830.png',
+  shortName: 'LIB',
   stadium: '',
 }
+
