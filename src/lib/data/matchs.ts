@@ -1,5 +1,5 @@
 import type { MatchCompleted } from "../../model/Match";
-import { AmericaCali, AmericaMG, ASMonaco, Atalanta, AtleticoGO, AtleticoMadrid, Botaagua, BotaaguaAC, Chelsea, LASK, ManchesterCity, Napoli, Olimpia, OlympiqueMarseille, PSG, RiverPlateURU, Sevilla, StadeRennais, Tottenham } from "./clubs";
+import { AmericaCali, AmericaMG, ASMonaco, Atalanta, AtleticoGO, AtleticoMadrid, Botaagua, BotaaguaAC, Chelsea, LASK, Libertad, ManchesterCity, Napoli, Olimpia, OlympiqueMarseille, PSG, RiverPlateURU, Sevilla, StadeRennais, Tottenham, UniversidadCatolica } from "./clubs";
 
 export const matchsEuropa: MatchCompleted[] = [
   {
@@ -1443,6 +1443,147 @@ export const matchsEuropa: MatchCompleted[] = [
         kicks: 4,
         expectedGoals: 0.7,
         cornerKick: 1,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '32',
+    home: BotaaguaAC,
+    away: UniversidadCatolica,
+    date: '2024-05-20 19:00:00',
+    publicationDate: '2024-05-18 20:00:00',
+    stadium: BotaaguaAC.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Semifinal',
+    score: {
+      goalsHome: [
+        { minute: '20', player: 'MCAULEY', assistence: 'BRANCO' },
+        { minute: '38', player: 'ADAM', assistence: 'CARRILLO' },
+        { minute: '62', player: 'ADAM', assistence: 'SILVA' },
+      ],
+      goalsAway: [
+        { minute: '71', player: 'ARAVENA', assistence: 'PINARES' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 3,
+        possession: 44,
+        kicks: 6,
+        expectedGoals: 1.7,
+        cornerKick: 2,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 1,
+        possession: 56,
+        kicks: 9,
+        expectedGoals: 1.3,
+        cornerKick: 3,
+        offSide: 1,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '33',
+    home: UniversidadCatolica,
+    away: BotaaguaAC,
+    date: '2024-05-21 19:00:00',
+    publicationDate: '2024-05-18 20:00:00',
+    stadium: UniversidadCatolica.stadium,
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Semifinal',
+    score: {
+      goalsHome: [],
+      goalsAway: [
+        { minute: '24', player: 'ADAM', assistence: 'SILVA' },
+        { minute: '75', player: 'CASTRO', assistence: 'ADAM' },
+        { minute: '88', player: 'BRANCO', assistence: 'CASTRO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 0,
+        possession: 59,
+        kicks: 3,
+        expectedGoals: 0.4,
+        cornerKick: 2,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 3,
+        possession: 41,
+        kicks: 6,
+        expectedGoals: 2.5,
+        cornerKick: 0,
+        offSide: 0,
+        free: 1,
+        penalty: 0,
+        yellowCard: 1,
+        redCard: 0,
+      }
+    }
+  },
+  {
+    id: '34',
+    home: Libertad,
+    away: BotaaguaAC,
+    date: '2024-05-22 19:00:00',
+    publicationDate: '2024-05-21 20:00:00',
+    stadium: 'El Libertador',
+    championship: 'CONMEBOL Sudamericana',
+    season: 1,
+    stage: 'Final',
+    score: {
+      goalsHome: [],
+      goalsAway: [
+        { minute: '15', player: 'ADAM', assistence: 'CASTRO' },
+        { minute: '27', player: 'BRANCO', assistence: 'MCAULEY' },
+        { minute: '86', player: 'ADAM', assistence: 'CARRILLO' },
+        { minute: '90 + 3', player: 'CARRILLO', assistence: 'CASTRO' },
+      ],
+    },
+    video: '',
+    stats: {
+      home: {
+        goals: 0,
+        possession: 62,
+        kicks: 6,
+        expectedGoals: 1.3,
+        cornerKick: 2,
+        offSide: 0,
+        free: 0,
+        penalty: 0,
+        yellowCard: 0,
+        redCard: 0,
+      },
+      away: {
+        goals: 4,
+        possession: 38,
+        kicks: 4,
+        expectedGoals: 1.9,
+        cornerKick: 0,
         offSide: 0,
         free: 0,
         penalty: 0,
