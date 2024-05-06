@@ -1202,7 +1202,7 @@ export const news: News[] = [
     id: '23',
     idMatch: '21',
     publicationDate: '2024-05-05 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final.png?raw=true',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final.jpeg?raw=true',
     title: 'O Botaagua é campeão da UEFA Champions League',
     titlePageLink: 'Botaagua é campeão',
     subtitle: 'Botaagua vence por 3 a 0 o PSG e é campeão da UEFA Champions League.',
@@ -1246,7 +1246,7 @@ export const news: News[] = [
       },
       {
         type: 'img',
-        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final_1.png?raw=true'],
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/22_final_1.jpeg?raw=true'],
       },
       {
         type: 'paragraph',
@@ -1900,6 +1900,258 @@ export const news: News[] = [
         O Botaagua está na semi-final da CONMEBOL Sudamericana e seu adversário vai ser o Universidad Católica que passou
         pela LDU venceu os dois jogos e com o placar agregado de 5 a 1. o primeiro jogo vai ser dia 20 no Estádio Presidente
         G.Lopes e a volta vai ser no Chile no dia 21, ambos os jogos as 19hrs.
+        `]
+      }
+    ],
+  },
+  {
+    id: '35',
+    idMatch: '32',
+    publicationDate: '2024-05-20 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_0.jpeg',
+    title: 'Botaagua vence por 3 a 1 e está mais perto da final.',
+    titlePageLink: 'Botaagua x Uni.Católica',
+    subtitle: 'Botaagua domina o confronto e vence por 3 a 1 o Universidad Católica e pode perder até por 1 gol para estar na final.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua tirou a vantagem do Olimpia.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O jogo começou com o Univesidad Católica melhor e teve uma chance aos 7 minutos em que o goleiro fez ótima defesa. O Botaagua
+        teve sua primeira chance aos 17 minutos com ADAM, mas foi aos 19 que MCAULEY acertou um chutesso para marcar 1 a 0 para os mandantes.
+        O time visitante sentiu o gol o e Botaagua começou a mandar na partida e aos 34 minutos, BRANCO avançou e chutou para a defesa
+        do goleiro. Mas no lance seguinte, após escanteio, ADAM recebeu livre para chutar no canto do goleiro, 2 a 0 Botaagua.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória impressionante.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou com o Botaagua no ataque, e aos 50 minutos ADAM recebeu livre e chutou para a defesa do goleiro. O
+        Universidad Católica buscou o ataque, mas parava na forte marcação do Botaagua. E aos 60 minutos, SILVA tocou para ADAM
+        que chutou de primeiro no canto, sem chances para o goleiro, era o terceiro do Botaagua. Com o terceiro gol, o Botaagua
+        relaxou e viu o Católica buscar uma reação com chances aos 67 e 69 minutos de jogo. Mas foi no escanteio, aos 70 minutos,
+        ARAVENA cabeciou e descontou para o time visitante. O Universidad Católica continuou atacando, mas o time ficou na defesa
+        de RIBEIRO e na marcação do Botaagua. E com o apito do juiz, o Botaagua vence por 3 a 1.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Confira o resultado dos jogos das semifinais'],
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_1.jpeg']
+      },
+    ],
+  },
+  {
+    id: '36',
+    idMatch: '33',
+    publicationDate: '2024-05-21 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_0.jpeg',
+    title: 'Botaagua vence denovo e está na final da Sulamericana.',
+    titlePageLink: 'Uni.Católica x Botaagua',
+    subtitle: 'Botaagua vence por 3 a 0 o Universidad Católica e está na final da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua na frente.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O primeiro tempo começa com o Universidad Católica no ataque e logo aos 10 minutos, uma falta do Botaagua e cartão
+        amarelo para SILVA. O Botaagua se defendia e partia para os contra-ataques e aos 23 minutos, ADAM é lançado e chutou
+        forte e o goleiro espalmou, mas a bola acabou entrando, Botaagua abria o placar. Perdendo pelo placar agregado de 3 gols
+        o time mandante foi pra cima, mas sem chances para criar uma situação real de gol.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Vitória tranquila.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou como terminou o primeiro, o Universidad atacando e o Botaagua nos contra-ataques. E aos 63 minutos,
+        num contra-ataque rápido, ADAM chegou na grande área e chutou forte, mas a bola acabou saindo. no lance seguinte, uma saída errada
+        do goleiro, ADAM acerta a trave. Porém, foi aos 74 minutos, que em um contra-ataque, CASTRO foi lançado, avançou até a grande
+        área e chutou no cantinho, sem chances para o goleiro, Botaagua 2 a 0. Nada dava certo para o Uni. Católica, e aos 88 minutos,
+        o Botaagua deu o golpe final, em outro contra-ataque, CASTRO avançou na ponta e cruzou para BRANCO cabeciar e fazer 3 a 0. Vitória
+        com sobras e vaga para a final.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Final decidida.'],
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_2.jpeg'
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        A final está decidida, o Botaagua goleou o Universidad Católica por 6 a 1 no agregado e o Libertad venceu por
+        2 a 1 no agregado o Independente del Valle. A final vai ser no dia 22 de maio ás 19hrs, no estádio El Libertador.
+        Botaagua e Libertad vão se enfrentar pela primeira vez na história e a final promete ser um bom jogo.
+        `]
+      }
+    ],
+  },
+  {
+    id: '37',
+    publicationDate: '2024-05-22 00:00:01',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_0.jpeg',
+    title: 'FINAL: Libertad x Botaagua',
+    titlePageLink: 'Libertad x Botaagua',
+    subtitle: 'Final da CONMEBOL Sudamericana, Libertad e Botaagua se enfrentam numa final inédita.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['A campanha do Botaagua.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua começou mal o campeonato e se recuperou e passou em primeiro do seu grupo com 11 pontos, 3 vitórias
+        2 empates e 1 derrota, mancando 14 gols e tomando 7. Foi direto para as oitavas e enfrentou o Atlético-GO e venceu
+        os dois jogos com o placar agregado de 6 a 2. Depois nas quartas, enfrentou o Olimpia e mesmo perdendo o primeiro
+        jogo por 1 a 0, venceu o segundo por 3 a 0 e foi para as semifinais. Nessa fase, o adversário foi o Universidad Católica
+        e vencendo com tranquilidade os dois jogos, passou de fase com o placar agregado de 6 a 1. Chega nessa final em sua
+        melhor fase, evoluiu bem e está na final com méritos. Fez uma campanha de 8 vitórias em 12 jogos, fez 29 gols e tomou
+        11, um aproveitamento de 72% na competição. Tem o melhor ataque e a melhor defesa e vem como favorito a ganhar o trófeu.
+        `],
+        /*
+        BTA 3x4 AMG - 0 0 3 4
+        AME 1x1 BTA - 1 0 4 5
+        CAR 1x6 BTA - 4 1 10 6
+        BTA 2x0 AME - 7 2 12 6
+        BTA 1x0 CAR - 10 3 13 6
+        AMG 1x1 BTA - 11 3 14 7
+        ----
+        BTA 1x0 AGO - 14 4 15 7
+        AGO 2x5 BTA - 17 5 20 9
+        OLI 1x0 BTA - 17 5 20 10
+        BTA 3x0 OLI - 20 6 23 10
+        BTA 3x1 UCA - 23 7 26 11
+        UCA 0x3 BTA - 26 8 19 11
+        */
+      },
+      {
+        type: 'heading',
+        value: ['A campanha do Libertad.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Libertad fez uma competição caótica, se classificou na última rodada vencendo por 2 a 1 o Estudiantes de Mérida.
+        Passou em segundo na fase de grupos com 7 pontos, 1 vitória, 4 empates e 1 derrota. Foi para elimatória e enfrentou
+        o Royal Pari e venceu os dois jogos com o placar agregado de 4 a 1. Nas oitavas, enfrentou o WANDERERS e passou com
+        o placar agregado de 4 a 1. Nas quartas, enfrentou o Santos e vencendo os dois jogos por 2 a 1, foi para a semifinal.
+        Nessa fase, o adversário foi o Independiente del Valle, e vencendo o primeiro jogo por 1 a 0 e empatando o segundo por
+        1 a 1 chegou na final da Sudamericana. Fez uma campanha de 7 vitórias e 6 empates em 14 jogos, fez 23 gols e tomou 16,
+        um aproveitamento de 64% na competição, ainda não perdeu na fase de mata mata e está buscando o título.
+        `],
+        /*
+        EDM 1x1 LIB - 1 0 1 1
+        LIB 2x2 CAR - 2 0 3 3
+        LIB 0x2 CEA - 2 0 3 5
+        CAR 2x2 LIB - 3 0 5 7
+        CEA 2x2 LIB - 4 0 7 9
+        LIB 2x1 EDM - 7 1 9 10
+        ----
+        LIB 2x0 ROY - 10 2 11 10
+        ROY 1x2 LIB - 13 3 13 11
+        WAN 1x3 LIB - 16 4 16 12
+        LIB 1x1 WAN - 17 4 17 13
+        SAN 1x2 LIB - 20 5 19 14
+        LIB 2x1 SAN - 23 6 21 15
+        LIB 1x0 IDV - 26 7 22 15
+        IDV 1x1 LIB - 27 7 23 16
+        */
+      },
+      {
+        type: 'heading',
+        value: ['Final decidida.'],
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_1.jpeg']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        A final da CONMEBOL Sudamericana vai acontecer no dia 22 de maio as 19hrs no estádio El Libertador. O vencedor, estará
+        classificado para a CONMEBOL Recopa contra o vencedor da CONMEBOL Libertadores. Essa final você pode acompanhar no Youtube
+        ou aqui no site.
+        `]
+      }
+    ],
+  },
+  {
+    id: '38',
+    idMatch: '34',
+    publicationDate: '2024-05-22 19:30:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_0.jpeg',
+    title: 'Botaagua goleia e é campeão da CONMEBOL Sudamericana.',
+    titlePageLink: 'Libertad x Botaagua',
+    subtitle: 'Botaagua goleia por 4 a 0 o Libertad e é campeão da CONMEBOL Sudamericana.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Botaagua domina o primeiro tempo.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O jogo começou com o Botaagua com a bola e trocando bem a bola, aos 14 minutos, CASTRO cruzou e ADAM abriu o placar,
+        Botaagua fazia 1 a 0. Mesmo com a vantagem, o Botaagua continuou com o domínio, e aos 26 minutos, MCAULEY tocou para
+        BRANCO e chutou no canto esquerdo do goleiro e marcou, 2 a 0. O Libertad acordou pro jogo e aos 32 minutos, CAMPU chegou
+        na cara do gol e chutou para fora. O Libertad continuou indo pro ataque, mas com poucas chances de gol até o final do primeiro tempo.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O segundo tempo começou com o Libertad no ataque e o Botaagua no contra-ataque. E aos 62 minutos, ALCARAZ dribou o zagueiro e chutou no canto
+        mas a bola acertou a trave. O time tinha o dompinio de jogo, e criava chances, aos 68 minutos, MALGAREO chutou e RIBEIRO fez a defesa.
+        No lance seguinte, TITO recebeu fora da área e chutou para RIBEIRO espalmar para fora. O gol parecia questão de tempo para o Libertad fazer
+        o gol, mas aos 85 minutos, CARRILLO lança ADAM que chutou no canto direito para fazer 3 a 0 Botaagua. O Libertad não tinha mais chances de
+        vencer e o Botaagua ainda fez mais um gol nos acréscimos para fechar a goleada, CASTRO lançou CARRILLO que marcou em um toque sútil. Botaagua
+        4, Libertad 0.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Final decidida.'],
+      },
+      {
+        type: 'carousel',
+        value: [
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_2.jpeg'
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: [`
+        O Botaagua é pela primeira vez campeão da CONMEBOL Sudamericana pela primeira vez e com direito a goleada. Com o título, o Botaagua
+        está na Libertadores da proxima temporada e está na CONMEBOL Recopa, o adversário vai ser decididos em breve.
         `]
       }
     ],
