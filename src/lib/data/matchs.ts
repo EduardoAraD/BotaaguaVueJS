@@ -1006,7 +1006,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'BURNABÃO', minute: '88', assistence: 'MEDEIRÃO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/6-1Hck7uoQI?si=6s8rSHhp0DOqXVDm',
     stats: {
       home: {
         goals: 3,
@@ -1052,7 +1052,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'WAAD', minute: '66', assistence: 'BRANCO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/aCfpC2Ohq6Q?si=pztDF_SfiiqfX1qr',
     stats: {
       home: {
         goals: 1,
@@ -1103,7 +1103,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'ADAM', minute: '72', assistence: 'CARRILLO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/Y81JuVxDHRc?si=2PpTCd4Yk_LkA9p4',
     stats: {
       home: {
         goals: 1,
@@ -1148,7 +1148,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/7pRJpaEhxH0?si=EboIqUkYsEqfujCi',
     stats: {
       home: {
         goals: 2,
@@ -1192,7 +1192,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/4lzYJG6nDNY?si=8hP4c3Zsg4Cpa6Pg',
     stats: {
       home: {
         goals: 1,
@@ -1238,7 +1238,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { player: 'CASTRO', minute: '8', assistence: 'WAAD' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/UMFXrw9chlo?si=Y6QPJKppeLtCOuaP',
     stats: {
       home: {
         goals: 1,
@@ -1282,7 +1282,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/v09E_hixizQ?si=uMhXpF7PX9W0C6Ht',
     stats: {
       home: {
         goals: 1,
@@ -1333,7 +1333,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { minute: '50', player: 'BRANCO', assistence: 'CASTRO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/e2I7KlcYhj0?si=Ne7wdTQtZs3CvJ0S',
     stats: {
       home: {
         goals: 2,
@@ -1377,7 +1377,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/4_1b9j-ulCs?si=dIHX9j8iVLZN8fXQ',
     stats: {
       home: {
         goals: 1,
@@ -1423,7 +1423,7 @@ export const matchsEuropa: MatchCompleted[] = [
       ],
       goalsAway: [],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/pPLQAuISi2Y?si=eCJ9vL_JZdYB7qP5',
     stats: {
       home: {
         goals: 3,
@@ -1471,7 +1471,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { minute: '71', player: 'ARAVENA', assistence: 'PINARES' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/3sot8u4FN6g?si=mflsmelGfG_wDix_',
     stats: {
       home: {
         goals: 3,
@@ -1517,7 +1517,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { minute: '88', player: 'BRANCO', assistence: 'CASTRO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/8XN0ZmGV7Kk?si=fNs3E4GD-VK2h5N5',
     stats: {
       home: {
         goals: 0,
@@ -1564,7 +1564,7 @@ export const matchsEuropa: MatchCompleted[] = [
         { minute: '90 + 3', player: 'CARRILLO', assistence: 'CASTRO' },
       ],
     },
-    video: '',
+    video: 'https://www.youtube.com/embed/DSRqu1SKQhI?si=6feKSmuCsqkWQCh7',
     stats: {
       home: {
         goals: 0,
