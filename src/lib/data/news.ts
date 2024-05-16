@@ -1655,7 +1655,7 @@ export const news: News[] = [
   {
     id: '31',
     publicationDate: '2024-05-14 12:00:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_0.jpeg?raw=true',
     title: 'Botaagua vai enfrentar o Atlético-GO nas oitavas.',
     titlePageLink: 'Sorteio definido',
     subtitle: 'Com as eliminatórias decididas, o Botaagua vai enfrentar o Atlético-GO nas oitavas de final da CONMEBOL Sudamericana.',
@@ -1667,9 +1667,9 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_2.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_oi_3.jpeg?raw=true',
         ]
       },
       {
@@ -1685,10 +1685,10 @@ export const news: News[] = [
     ],
   },
   {
-    id: '31',
+    id: '32',
     idMatch: '28',
     publicationDate: '2024-05-15 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg?raw=true',
     title: 'Botaagua vence o primeiro confronto e tem a vantagem para o jogo da volta.',
     titlePageLink: 'Botaagua x Atlético-GO',
     subtitle: 'Com o gol de BRANCO, o Botaagua vence e o Atlético-GO e está a um empate de se classificar para as quartas de final da Sudamericana.',
@@ -1729,17 +1729,17 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_2.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_2.jpeg?raw=true',
         ]
       }
     ],
   },
   {
-    id: '32',
+    id: '33',
     idMatch: '29',
     publicationDate: '2024-05-16 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_1_0.jpeg?raw=true',
     title: 'Botaagua goleia e está nas quartas de final.',
     titlePageLink: 'Atlético-GO x Botaagua',
     subtitle: 'Botaagua encanta e goleia por 5 a 2 o Atlético-GO e está na quartas de final da CONMEBOL Sudamericana.',
@@ -1782,9 +1782,9 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_2.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_3.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_2.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_oi_2_3.jpeg?raw=true',
         ]
       },
       {
@@ -1798,10 +1798,10 @@ export const news: News[] = [
     ],
   },
   {
-    id: '33',
+    id: '34',
     idMatch: '30',
     publicationDate: '2024-05-17 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg?raw=true',
     title: 'Botaagua perde e precisa vencer em casa.',
     titlePageLink: 'Olimpia x Botaagua',
     subtitle: 'Botaagua toma o gol no segundo tempo e precisa vencer em casa para chegar a semi-final.',
@@ -1841,16 +1841,16 @@ export const news: News[] = [
       {
         type: 'img',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_1.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_1.jpeg?raw=true',
         ]
       },
     ],
   },
   {
-    id: '34',
+    id: '35',
     idMatch: '31',
     publicationDate: '2024-05-18 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_1_0.jpeg?raw=true',
     title: 'Botaagua vence por 3 a 0 e está na semi-final.',
     titlePageLink: 'Botaagua x Olimpia',
     subtitle: 'Com gols de ADAM e CARRILLO, Botaagua vence por 3 a 0 o Olimpia e está na semi-final da CONMEBOL Sudamericana.',
@@ -1890,8 +1890,8 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_2.jpeg',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_qf_2_2.jpeg?raw=true',
         ]
       },
       {
@@ -1905,10 +1905,10 @@ export const news: News[] = [
     ],
   },
   {
-    id: '35',
+    id: '36',
     idMatch: '32',
     publicationDate: '2024-05-20 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_0.jpeg?raw=true',
     title: 'Botaagua vence por 3 a 1 e está mais perto da final.',
     titlePageLink: 'Botaagua x Uni.Católica',
     subtitle: 'Botaagua domina o confronto e vence por 3 a 1 o Universidad Católica e pode perder até por 1 gol para estar na final.',
@@ -1947,15 +1947,15 @@ export const news: News[] = [
       },
       {
         type: 'img',
-        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_1.jpeg']
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_1_1.jpeg?raw=true']
       },
     ],
   },
   {
-    id: '36',
+    id: '37',
     idMatch: '33',
     publicationDate: '2024-05-21 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_0.jpeg?raw=true',
     title: 'Botaagua vence denovo e está na final da Sulamericana.',
     titlePageLink: 'Uni.Católica x Botaagua',
     subtitle: 'Botaagua vence por 3 a 0 o Universidad Católica e está na final da CONMEBOL Sudamericana.',
@@ -1995,8 +1995,8 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_2.jpeg'
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_sf_2_2.jpeg?raw=true'
         ]
       },
       {
@@ -2010,9 +2010,9 @@ export const news: News[] = [
     ],
   },
   {
-    id: '37',
+    id: '38',
     publicationDate: '2024-05-22 00:00:01',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_0.jpeg?raw=true',
     title: 'FINAL: Libertad x Botaagua',
     titlePageLink: 'Libertad x Botaagua',
     subtitle: 'Final da CONMEBOL Sudamericana, Libertad e Botaagua se enfrentam numa final inédita.',
@@ -2087,7 +2087,7 @@ export const news: News[] = [
       },
       {
         type: 'img',
-        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_1.jpeg']
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_info_f_1.jpeg?raw=true']
       },
       {
         type: 'paragraph',
@@ -2100,10 +2100,10 @@ export const news: News[] = [
     ],
   },
   {
-    id: '38',
+    id: '39',
     idMatch: '34',
     publicationDate: '2024-05-22 19:30:00',
-    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_0.jpeg',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_0.jpeg?raw=true',
     title: 'Botaagua goleia e é campeão da CONMEBOL Sudamericana.',
     titlePageLink: 'Libertad x Botaagua',
     subtitle: 'Botaagua goleia por 4 a 0 o Libertad e é campeão da CONMEBOL Sudamericana.',
@@ -2143,8 +2143,8 @@ export const news: News[] = [
       {
         type: 'carousel',
         value: [
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_1.jpeg',
-          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_2.jpeg'
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_1.jpeg?raw=true',
+          'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t1_f_2.jpeg?raw=true'
         ]
       },
       {
