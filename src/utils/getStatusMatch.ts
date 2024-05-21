@@ -5,8 +5,8 @@ export function getStatusMatchByDateHour(dateMatch: string): StatusMatch {
   const now = Date.now();
   const diffDatesInMilisecunds = dateMatchTime - now;
 
-  const MinutesIntervalOfLive = 1000 * 60 * 30;
-  if(diffDatesInMilisecunds + MinutesIntervalOfLive < 0) {
+  const timeIntervalOfLive = 1000 * 60 * 30; // 30 min
+  if(diffDatesInMilisecunds + timeIntervalOfLive < 0) {
     return 'finished';
   }
   if(diffDatesInMilisecunds < 0) {
@@ -14,5 +14,4 @@ export function getStatusMatchByDateHour(dateMatch: string): StatusMatch {
   }
   
   return 'started';
-
 }
