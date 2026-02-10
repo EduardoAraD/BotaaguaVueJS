@@ -39,7 +39,7 @@
         <MultiLinkVue name="Futebol" :sublinks="sublinksToSoccer" />
         <MultiLinkVue name='e-Sports' :sublinks="sublinksToESports" />
         <ItemLinkHover link='/' name="Ingressos" />
-        <ItemLinkHover link='/' name="Loja" />
+        <ItemLinkHover link='/store' name="Loja" />
         <IconLinkHover
           link="https://www.instagram.com/botaagua_e_sport/"
           icon="mdi-instagram"
@@ -64,7 +64,7 @@
           <MultiLinkVue name="Futebol" :sublinks="sublinksToSoccer" isMenuMobile />
           <MultiLinkVue name='e-Sports' :sublinks="sublinksToESports" isMenuMobile />
           <ItemLinkHover link='/' name="Ingressos" />
-          <ItemLinkHover link='/' name="Loja" />
+          <ItemLinkHover link='/store' name="Loja" />
         </div>
       </v-expand-transition>
     </div>

@@ -8,6 +8,7 @@ import NewsDetails from '../page/NewsDetails.vue'
 import Stadium from '../page/Stadium.vue'
 import History from '../page/History.vue'
 import Players from '../page/Players/Players.vue'
+import Store from '../page/Store/Store.vue'
 
 const routes = [
   { path: '/', component: HomeVue },
@@ -17,7 +18,8 @@ const routes = [
   { path: '/noticias/:id', component: NewsDetails },
   { path: '/clube/estadio', component: Stadium },
   { path: '/clube/historia', component: History },
-  { path: '/clube/elenco', component: Players }
+  { path: '/clube/elenco', component: Players },
+  { path: '/store', component: Store }
 ]
 
 export const router = createRouter({
