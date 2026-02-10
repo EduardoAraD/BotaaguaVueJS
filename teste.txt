@@ -1,0 +1,45 @@
+Vamos criar um exemplo de design para um site de loja de futebol chamado "FutebolMania":
+
+**Página inicial:**
+- Um banner grande e dinâmico exibindo uma imagem de destaque de um jogo de futebol emocionante, com produtos em destaque sobrepostos.
+- Barra de navegação clara com categorias principais: "Camisas de Times", "Chuteiras", "Acessórios", "Bolas" e "Outlet".
+- Seção de destaques com produtos populares, como camisas de times mais vendidas, chuteiras de última geração e acessórios essenciais.
+- Uma seção de "Novidades" destacando os produtos mais recentes adicionados ao catálogo.
+- Formulário de inscrição na newsletter com um apelo visual para incentivar os visitantes a se cadastrarem.
+
+**Página de categoria - Camisas de Times:**
+- Layout em grade com miniaturas de camisas de times populares.
+- Opções de filtragem por time, liga, tamanho e preço.
+- Destaques para os produtos mais vendidos ou em destaque dentro da categoria.
+
+**Página de produto - Camisa do Barcelona:**
+- Imagens de alta resolução da camisa, incluindo diferentes ângulos e detalhes.
+- Descrição detalhada do produto, incluindo material, tamanho disponível e características exclusivas.
+- Opções de seleção de tamanho e, se aplicável, de personalização com nome e número.
+- Avaliações de clientes e opção para deixar um comentário.
+- Botões claros para "Adicionar ao Carrinho" e "Comprar Agora".
+
+**Carrinho de Compras:**
+- Resumo dos itens selecionados com imagens em miniatura, quantidade, preço unitário e total.
+- Calculadora de custo de envio com opções de entrega.
+- Opção para aplicar códigos de desconto ou cupons.
+- Botões para atualizar o carrinho, continuar comprando ou proceder ao checkout.
+
+**Página de Checkout:**
+- Formulário de pagamento seguro com opções de pagamento variadas (cartão de crédito, PayPal, etc.).
+- Campo para inserir informações de envio e faturamento.
+- Resumo final do pedido, incluindo detalhes do produto, custos de envio e impostos.
+- Botões claros para confirmar o pedido e retornar ao carrinho.
+
+**Página de Conta do Cliente:**
+- Área de login para clientes registrados e opção para criar uma conta.
+- Histórico de pedidos com detalhes completos, incluindo status do pedido e informações de rastreamento.
+- Configurações de conta para editar informações pessoais, endereços de entrega e preferências de comunicação.
+- Opção para se inscrever ou cancelar a inscrição na newsletter.
+
+**Rodapé:**
+- Links úteis, como políticas de privacidade, termos de serviço, informações de contato e perguntas frequentes.
+- Ícones de mídia social para seguir a loja nas redes sociais.
+- Informações de contato, incluindo telefone, e-mail e endereço físico da loja.
+
+Este design combina elementos visuais atrativos com funcionalidades práticas para oferecer uma experiência de compra agradável e conveniente para os clientes da FutebolMania.

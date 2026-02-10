@@ -3,7 +3,7 @@ import { Score, ScoreMatch } from "../model/Score";
 interface ScoreForPage {
   player: String;
   goals: {
-    minute: number;
+    minute: string;
     isPenalty?: boolean;
   }[];
 }

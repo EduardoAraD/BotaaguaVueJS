@@ -5,12 +5,10 @@
       :to="`/noticias/${id}-${pageLink.toLowerCase().replace(/\s/g, '')}`"
       class="border-md d-flex flex-column w-100 rounded-lg overflow-hidden position-relative"
       style="text-decoration: none; min-width: 270px; transition: 0.2s"
+      data-test-id="card-news"
     >
       <v-img height="200" :src="image" alt="Foto da Notícia" cover />
-      <div
-        class="position-absolute w-100 pa-3"
-        style="bottom: 0px; background-color: #000000CC;"
-      >
+      <div class="position-absolute w-100 pa-3 div-title">
         <p
           class="text-body-2 font-weight-bold"
           :class="isHovering ? 'text-blue' : 'text-white'"
@@ -23,9 +21,16 @@
 
 <script lang="ts" setup>
   defineProps<{
-    image: HTMLImageElement,
+    image: String,
     id: String,
     title: String,
     pageLink: String,
   }>();
 </script>
+
+<style>
+  .div-title {
+    bottom: 0px;
+    background-color: #000000CC;
+  }
+</style>

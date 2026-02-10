@@ -2156,4 +2156,54 @@ export const news: News[] = [
       }
     ],
   },
+  {
+    id: '40',
+    publicationDate: '2024-05-23 10:00:00',
+    image: 'https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t2_rc_info_f_0.jpeg?raw=true',
+    title: 'Nova temporada vai começar com a CONMEBOL Recopa',
+    titlePageLink: 'Final da CONMEBOL Recopa',
+    subtitle: 'A temporada vai começar com dois jogos eletrizantes entre o campeão da Sudamericana e da Libertadores.',
+    descriptions: [
+      {
+        type: 'heading',
+        value: ['Início de temporada'],
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          A temporada vai começar com a Final da CONMEBOL Recopa entre o Flamengo e Botaagua. Além disso, por ter sido
+          campeão da Sudamericana, o Botaagua vai jogar da CONMEBOL Libertadores e sua estreia vai ser contra o Libertad
+          em um rematch da final da Sudamericana da temporada passada. Os jogos vão começar a partir do dia 24 de maio.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Tudo que você precisa saber sobre a final.']
+      },
+      {
+        type: 'paragraph',
+        value: [`
+          Botaagua e Flamengo se enfrentaram pela primeira vez na sua história para decidir que leva a primeira taça da temporada.
+          O Flamengo vem como favorito para levar a trófeu, mas o Botaagua não vem atrás e quer fazer jogo duro contra os campeões
+          da Libertadores.
+        `]
+      },
+      {
+        type: 'heading',
+        value: ['Quando começa a CONMEBOL Libertadores.']
+      },
+      {
+        type: 'img',
+        value: ['https://github.com/EduardoAraD/assets/blob/main/botaagua/news/arg_t2_rc_info_f_1.jpeg?raw=true']
+      },
+      {
+        type: 'paragraph',
+        value: [
+          `Os grupos já estão definidos, e a partida de estreia vai ser no dia 27 de maio, as 19h. A partida vai
+          ser uma reedição da final da Sudamericana e promete ser revanche do Libertad. No grupos ainda temos
+          Fortaleza do Brasil e Metropolitanos da Venezuela.`
+        ]
+      },
+    ],
+  },
 ];

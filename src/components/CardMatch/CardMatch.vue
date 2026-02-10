@@ -7,7 +7,8 @@
       :class="isHovering ? 'bg-grey-darken-3' : 'bg-grey-darken-4'"
       style="text-decoration: none; min-width: 270px; transition: 0.2s"
     >
-      <h3 class="text-body-1 text-white font-weight-bold">
+      <h3
+        class="text-body-1 text-white font-weight-bold">
         {{ match.championship }}
       </h3>
       <div class="d-flex align-center justify-center w-100 ga-2" style="max-width: 350px;">
@@ -15,12 +16,12 @@
           <v-img height="64" width="64" contain
             :src="match.home.logo" :alt="match.home.shortName"
           />
-          <span class="text-body-2 text-white d-none d-md-flex">{{ match.home.name }}</span>
+          <span class="text-body-2 text-white d-none d-md-flex text-center">{{ match.home.name }}</span>
         </div>
-        <h2 class="text-h4 font-weight-medium">
+        <h2 class="text-h4 font-weight-medium" data-test-id="goalHome">
           {{ state.status === 'finished' ? match.score.goalsHome.length : '' }}
         </h2>
-        <span v-if="state.hasPenalty" class="text-body-2">
+        <span v-if="state.hasPenalty" class="text-body-2" data-test-id="scorePenalt">
           {{ `(${match.score.scorePenalts.home} x ${match.score.scorePenalts.away})` }}
         </span>
         <span v-else class="text-body-2 text-white">X</span>
@@ -30,7 +31,7 @@
         <div class="d-flex flex-column align-center ga-1" style="flex: 1;">
           <v-img height="64" width="64" contain
             :src="match.away.logo" :alt="match.away.shortName" />
-          <span class="text-body-2 text-white d-none d-md-flex">{{ match.away.name }}</span>
+          <span class="text-body-2 text-white d-none d-md-flex text-center">{{ match.away.name }}</span>
         </div>
       </div>
       <div class="d-flex flex-column justify-center align-center">
@@ -48,14 +49,13 @@
 </template>
 
 <script lang="ts" setup>
-  import { RouterLink } from 'vue-router';
-  import { onMounted, reactive } from 'vue';
-  import { Match } from '../model/Match'
+  import { reactive, onBeforeMount } from 'vue';
+  import { Match } from '../../model/Match'
   import { formatDate } from '../../utils/formatedDate';
   import { getStatusMatchByDateHour } from '../../utils/getStatusMatch';
 
   const props = defineProps<{
-    match: { type: Match },
+    match: Match,
   }>();
 
   const state = reactive({
@@ -64,7 +64,7 @@
     status: 'started',
   })
 
-  onMounted(() => {
+  onBeforeMount(() => {
     const status = getStatusMatchByDateHour(props.match.date);
 
     state.formatDate = formatDate(props.match.date);
